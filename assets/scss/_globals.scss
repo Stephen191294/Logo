@@ -1,0 +1,35 @@
+@import "./variables";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  font-family: $Epilogue;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 17px;
+  font-family: $Inter;
+}
+
+a {
+  text-decoration: none !important;
+  font-family: $Inter;
+}
+
+.container {
+  max-width: 100% !important;
+  padding: 0 16px !important;
+  @media screen and (min-width: 1200px) {
+    padding: 0 16px !important;
+    max-width: 1200px !important;
+  }
+}
+
+section {
+  padding-top: 50px;
+}
