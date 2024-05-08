@@ -42,7 +42,39 @@
 }
 
 .sect-1-home {
+
   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .sect-1-links{
+    margin-top: 24px;
+    .sect-1-link-1{
+      background-color: $babyBlue;
+      color: $white100;
+      width: 200px;
+      height: 52px;
+      border-radius: 4px;
+      padding: 12px 49.5px 12px 49.5px;
+      
+    }
+    .sect-1-link-2{
+      color: $babyBlue;
+      border: 1px solid $babyBlue;
+      width: 200px;
+      height: 52px;
+      padding: 12px 38.5px 12px 38.5px;
+      border-radius: 4px;
+      margin-left: 20px;
+     
+  
+    }
+  }
+  
+  img{
+    margin: 44px 132px 96px 132px;
   }
 }
 
