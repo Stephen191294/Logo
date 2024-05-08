@@ -134,4 +134,24 @@ section {
 }
 .sect-1-home img {
   margin: 44px 132px 96px 132px;
+}
+
+.sect-2-home .container .row {
+  display: flex;
+  justify-content: center;
+}
+.sect-2-home .container .sect-2-text {
+  display: flex;
+  justify-content: center;
+}
+.sect-2-home .container .sect-2-text p {
+  font-family: "Epilogue", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700px;
+  color: #9095A0;
+}
+
+.sect-3-home .container {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

@@ -80,11 +80,29 @@
 
 .sect-2-home {
   .container {
+    .row{
+      display: flex;
+      justify-content: center;
+    }
+   .sect-2-text{
+    display: flex;
+    justify-content: center;
+    p{
+      font-family: $Epilogue;
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 700px;
+      color: $grey200;
+    }
+   }
+ 
   }
 }
 
 .sect-3-home {
   .container {
+    display: flex;
+ 
   }
 }
 
