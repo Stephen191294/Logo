@@ -3,7 +3,41 @@
 
 
 .navbar {
+  padding: 14px 24px 14px 28px;
+  .nav-link-1{
+    color: $babyBlue;
+    font-family: $Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .nav-link-2{
+    background-color: $babyBlue;
+    color:$white100;
+    width: 80px;
+    height: 36px;
+    border-radius: 4px;
+    padding: 7px 15px 7px 15px;
+   margin-left: 23px; 
+  }
   .container-fluid {
+    .nav-bar-list{
+      ul{
+        list-style: none;
+        display: flex;
+        font-family:$Inter;
+        cursor: pointer;
+        li{
+          margin-left: 24px;
+          color: $grey100;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 22px;
+          
+        }
+      }
+      
+    }
   }
 }
 

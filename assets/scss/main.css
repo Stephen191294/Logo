@@ -72,4 +72,37 @@ a {
 
 section {
   padding-top: 50px;
+}
+
+.navbar {
+  padding: 14px 24px 14px 28px;
+}
+.navbar .nav-link-1 {
+  color: #00BDD6;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.navbar .nav-link-2 {
+  background-color: #00BDD6;
+  color: #FFFFFF;
+  width: 80px;
+  height: 36px;
+  border-radius: 4px;
+  padding: 7px 15px 7px 15px;
+  margin-left: 23px;
+}
+.navbar .container-fluid .nav-bar-list ul {
+  list-style: none;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+.navbar .container-fluid .nav-bar-list ul li {
+  margin-left: 24px;
+  color: #565E6C;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
 }/*# sourceMappingURL=main.css.map */
