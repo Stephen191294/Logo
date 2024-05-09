@@ -316,6 +316,40 @@
 
 .sect-6-home {
   .container {
+    display: flex;
+    .sect-6-txt{ font-family: $Inter;
+      font-weight: 400px;
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 20px;
+      color:$black200;
+     
+    }
+    .left-section{
+      background-color: $babyBlue;
+      border-radius: 8px 0 0 8px;
+      padding: 80px 115px 80px 64px;
+
+      a{
+        width: 112px;
+        height: 52px;
+        border-radius: 4px;
+        background-color: $white100;
+        padding: 12px 24px;
+        color: $black100;
+
+      }
+      
+      h3{
+        color: $white100;
+        font-size: 48px;
+        font-family: $Epilogue;
+        line-height: 68px;
+        font-weight: bold;
+        
+        
+      }
+    }
   }
 }
 

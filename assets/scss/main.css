@@ -344,4 +344,36 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.sect-6-home .container {
+  display: flex;
+}
+.sect-6-home .container .sect-6-txt {
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #1D2128;
+}
+.sect-6-home .container .left-section {
+  background-color: #00BDD6;
+  border-radius: 8px 0 0 8px;
+  padding: 80px 115px 80px 64px;
+}
+.sect-6-home .container .left-section a {
+  width: 112px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  padding: 12px 24px;
+  color: #171A1F;
+}
+.sect-6-home .container .left-section h3 {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-family: "Epilogue", sans-serif;
+  line-height: 68px;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
