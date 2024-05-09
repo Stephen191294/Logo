@@ -132,13 +132,43 @@ section {
   border-radius: 4px;
   margin-left: 20px;
 }
-.sect-1-home img {
-  margin: 44px 132px 96px 132px;
+.sect-1-home .sect-1-img {
+  display: flex;
+  justify-content: center;
+}
+.sect-1-home .sect-1-img img {
+  padding-top: 44px;
+  padding-bottom: 96px;
 }
 
 .sect-2-home .container .row {
   display: flex;
   justify-content: center;
+}
+.sect-2-home .container .row .box-1 {
+  width: 235px;
+  height: 140px;
+  padding: 50px 16px 50px 16px;
+}
+.sect-2-home .container .row .box-2 {
+  width: 235px;
+  height: 140px;
+  padding: 30px 41px 30px 41px;
+}
+.sect-2-home .container .row .box-3 {
+  width: 235px;
+  height: 140px;
+  padding: 30px 28px 29px 29px;
+}
+.sect-2-home .container .row .box-4 {
+  width: 235px;
+  height: 140px;
+  padding: 31px 42px 31px 42px;
+}
+.sect-2-home .container .row .box-5 {
+  width: 235px;
+  height: 140px;
+  padding: 50px 24.8px 49.99px 26.95px;
 }
 .sect-2-home .container .sect-2-text {
   display: flex;
@@ -150,8 +180,88 @@ section {
   line-height: 36px;
   font-weight: bold;
   color: #9095A0;
+  margin-left: 35px;
 }
 
+.sect-3-home {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
 .sect-3-home .container {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sect-3-home .container .sect-3-link-1 {
+  background-color: #00BDD6;
+  color: #FFFFFF;
+  width: 112px;
+  height: 44px;
+  border-radius: 4px;
+  padding: 9px 26px 9px 25px;
+  font-family: "Inter", sans-serif;
+}
+.sect-3-home .container .sect-3-link-2 {
+  color: #00BDD6;
+  width: 118px;
+  height: 44px;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+}
+.sect-3-home .container .sect-3-image-1 {
+  margin-top: 178px;
+}
+.sect-3-home .container .sect-3-image-2 {
+  margin-bottom: 178px;
+}
+.sect-3-home .container .sect-3-group-1 {
+  margin-right: 220px;
+}
+
+.sect-4-home {
+  background-color: #EBFDFF;
+  height: 596px;
+}
+.sect-4-home .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sect-4-home .container .sect-4-img-1 {
+  margin-top: 97.86;
+  margin-bottom: 49.8px;
+}
+.sect-4-home .container .sect-4-img-2 {
+  margin-right: 96px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.sect-4-home .container .sect-4-img-3 {
+  margin-left: 96px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.sect-4-home .sect-4-group {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.sect-4-home .sect-4-group p {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+.sect-4-home .sect-4-group .sect-4-group-txt {
+  margin-top: 41px;
+  margin-left: 16px;
+  color: #424955;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+.sect-4-home .sect-4-group .sect-4-group-txt .job-title {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
 }/*# sourceMappingURL=main.css.map */
