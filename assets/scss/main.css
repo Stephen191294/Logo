@@ -376,4 +376,41 @@ section {
   font-family: "Epilogue", sans-serif;
   line-height: 68px;
   font-weight: bold;
+}
+
+.sect-7-home .sect-7-box-container {
+  margin-left: 132px;
+  margin-right: 132px;
+}
+.sect-7-home .sect-7-box-container .first-item {
+  color: #00BDD6;
+  font-family: "Inter", sans-serif;
+  line-height: 26px;
+  font-size: 16px;
+  margin-top: 24px;
+}
+.sect-7-home .sect-7-box-container .second-item {
+  font-family: "Epilogue", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 4px;
+}
+.sect-7-home .sect-7-box-container .third-item {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 22px;
+  margin-top: 15px;
+}
+.sect-7-home .sect-7-box-container .third-item .time {
+  margin-left: 156px;
+}
+.sect-7-home .sect-7-box-container ul {
+  list-style: none;
+}
+.sect-7-home .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
