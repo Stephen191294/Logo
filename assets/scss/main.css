@@ -357,10 +357,14 @@ section {
   margin-bottom: 20px;
   color: #1D2128;
 }
+.sect-6-home .container .right-section {
+  height: 384px;
+}
 .sect-6-home .container .left-section {
   background-color: #00BDD6;
   border-radius: 8px 0 0 8px;
   padding: 80px 115px 80px 64px;
+  height: 384px;
 }
 .sect-6-home .container .left-section a {
   width: 112px;
@@ -378,6 +382,12 @@ section {
   font-weight: bold;
 }
 
+.sect-7-home .container h4 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: bold;
+  line-height: 68px;
+  font-size: 48px;
+}
 .sect-7-home .sect-7-box-container {
   margin-left: 132px;
   margin-right: 132px;
@@ -413,4 +423,68 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer {
+  padding-top: 96px;
+}
+.footer .container {
+  display: flex;
+}
+.footer .container .footer-list {
+  display: flex;
+}
+.footer .container .footer-list ul {
+  list-style: none;
+  margin-right: 102px;
+}
+.footer .container .footer-list ul li {
+  margin-top: 12px;
+}
+.footer .container .footer-list ul li input {
+  height: 35px;
+  width: 269px;
+  border-radius: 4px, 0px, 0px, 4px;
+  border: none;
+  background-color: #EAECEF;
+}
+.footer .container .footer-list ul .first-item {
+  font-family: "Epilogue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+.footer .container .footer-list ul .first-item-1 {
+  color: #00BDD6;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 20px;
+  white-space: nowrap;
+}
+.footer .container .footer-list ul .second-item {
+  white-space: nowrap;
+}
+.footer .lower-footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 175.54px;
+  padding-left: 132px;
+  padding-right: 134px;
+  padding-bottom: 17px;
+}
+.footer .lower-footer-container select {
+  width: 127px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: #EAECEF;
+  border: none;
+}
+.footer .input-button {
+  position: absolute;
+  background-color: #00BDD6;
+  color: #FFFFFF;
+  padding: 7px 23px 7px 24px;
+  width: 114px;
+  height: 36px;
+  border-radius: 0px, 4px, 4px, 0px;
 }/*# sourceMappingURL=main.css.map */

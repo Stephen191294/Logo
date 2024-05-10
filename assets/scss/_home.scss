@@ -325,10 +325,14 @@
       color:$black200;
      
     }
+    .right-section{
+      height: 384px;
+    }
     .left-section{
       background-color: $babyBlue;
       border-radius: 8px 0 0 8px;
       padding: 80px 115px 80px 64px;
+      height: 384px;
 
       a{
         width: 112px;
@@ -354,6 +358,14 @@
 }
 
 .sect-7-home {
+  .container{
+    h4{
+      font-family: $Epilogue;
+      font-weight: bold;
+      line-height: 68px;
+      font-size: 48px;
+    }
+  }
   .sect-7-box-container{
     margin-left: 132px;
     margin-right: 132px ;
@@ -396,6 +408,78 @@
 
 
 .footer {
-  .conainer {
+  padding-top: 96px;
+ 
+  .container {
+    display: flex;
+    .footer-list{
+      display: flex;
+      .first-list{
+        //margin-left: 180px;
+      }
+      ul{
+        list-style: none;
+        margin-right: 102px;
+        li{
+          margin-top: 12px;
+          input{
+            height: 35px;
+            width: 269px;
+            border-radius: 4px, 0px, 0px, 4px;
+            border: none;
+            background-color: $lightGrey;
+           // white-space: nowrap;
+          }
+          
+        }
+        .first-item{
+          font-family: $Epilogue;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 30px;
+         
+        }
+        .first-item-1{
+          color: $babyBlue;
+          font-weight: 400;
+          line-height: 30px;
+          font-size: 20px;
+          white-space: nowrap;
+        }
+        .second-item{
+          white-space: nowrap;
+        }
+      
+      }
+    }
+    
+  }
+
+  
+  .lower-footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 175.54px;
+    padding-left: 132px;
+    padding-right: 134px;
+    padding-bottom: 17px;
+    select{
+      width: 127px;
+      height: 35px;
+      border-radius: 4px;
+      background-color: $lightGrey;
+      border:none;
+    }
+  }
+  .input-button{
+    position:absolute;
+    background-color: $babyBlue;
+    color:$white100;
+    padding: 7px 23px 7px 24px;
+    width:114px;
+    height: 36px;
+    border-radius: 0px, 4px, 4px, 0px;
+    //white-space: nowrap;
+
   }
 }
