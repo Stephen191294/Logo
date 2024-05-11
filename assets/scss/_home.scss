@@ -333,6 +333,7 @@
       border-radius: 8px 0 0 8px;
       padding: 80px 115px 80px 64px;
       height: 384px;
+      overflow: hidden;
 
       a{
         width: 112px;
@@ -375,6 +376,7 @@
       line-height: 26px;
       font-size: 16px;
       margin-top: 24px;
+      white-space: nowrap;
     }
     .second-item{
       font-family: $Epilogue;
@@ -389,6 +391,7 @@
       font-weight: 400px;
       line-height: 22px;
       margin-top: 15px;
+      white-space: nowrap;
       .time{
         margin-left: 156px;
       }
@@ -414,21 +417,23 @@
     display: flex;
     .footer-list{
       display: flex;
-      .first-list{
-        //margin-left: 180px;
-      }
       ul{
         list-style: none;
         margin-right: 102px;
         li{
           margin-top: 12px;
+          font-family: $Inter;
+          font-weight: 400;
+          line-height: 22px;
+          font-size: 14px;
           input{
             height: 35px;
             width: 269px;
             border-radius: 4px, 0px, 0px, 4px;
+            padding: 7px 12px 6px 34px;
             border: none;
             background-color: $lightGrey;
-           // white-space: nowrap;
+           
           }
           
         }
@@ -478,8 +483,17 @@
     padding: 7px 23px 7px 24px;
     width:114px;
     height: 36px;
-    border-radius: 0px, 4px, 4px, 0px;
-    //white-space: nowrap;
+    border-radius: 0, 4px, 4px, 0;
+    
+    
 
+  }
+  .input-icon{
+    position:absolute;
+    left:68%;
+    margin-top: 10px;
+  }
+  .footer-logos{
+    white-space: nowrap;
   }
 }

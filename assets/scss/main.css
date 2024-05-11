@@ -365,6 +365,7 @@ section {
   border-radius: 8px 0 0 8px;
   padding: 80px 115px 80px 64px;
   height: 384px;
+  overflow: hidden;
 }
 .sect-6-home .container .left-section a {
   width: 112px;
@@ -398,6 +399,7 @@ section {
   line-height: 26px;
   font-size: 16px;
   margin-top: 24px;
+  white-space: nowrap;
 }
 .sect-7-home .sect-7-box-container .second-item {
   font-family: "Epilogue", sans-serif;
@@ -412,6 +414,7 @@ section {
   font-weight: 400px;
   line-height: 22px;
   margin-top: 15px;
+  white-space: nowrap;
 }
 .sect-7-home .sect-7-box-container .third-item .time {
   margin-left: 156px;
@@ -440,11 +443,16 @@ section {
 }
 .footer .container .footer-list ul li {
   margin-top: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 14px;
 }
 .footer .container .footer-list ul li input {
   height: 35px;
   width: 269px;
   border-radius: 4px, 0px, 0px, 4px;
+  padding: 7px 12px 6px 34px;
   border: none;
   background-color: #EAECEF;
 }
@@ -486,5 +494,13 @@ section {
   padding: 7px 23px 7px 24px;
   width: 114px;
   height: 36px;
-  border-radius: 0px, 4px, 4px, 0px;
+  border-radius: 0, 4px, 4px, 0;
+}
+.footer .input-icon {
+  position: absolute;
+  left: 68%;
+  margin-top: 10px;
+}
+.footer .footer-logos {
+  white-space: nowrap;
 }/*# sourceMappingURL=main.css.map */
