@@ -360,54 +360,75 @@
 
 .sect-7-home {
   .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
     h4{
       font-family: $Epilogue;
       font-weight: bold;
       line-height: 68px;
       font-size: 48px;
+    
     }
-  }
-  .sect-7-box-container{
-    margin-left: 132px;
-    margin-right: 132px ;
-    .first-item{
-      color: $babyBlue;
-      font-family: $Inter;
-      line-height: 26px;
-      font-size: 16px;
-      margin-top: 24px;
-      white-space: nowrap;
-    }
-    .second-item{
-      font-family: $Epilogue;
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 36px;
-      margin-top: 4px;
-    }
-    .third-item{
-      font-family: $Inter;
-      font-size: 14px;
-      font-weight: 400px;
-      line-height: 22px;
-      margin-top: 15px;
-      white-space: nowrap;
-      .time{
-        margin-left: 156px;
+    .sect-7-box-container{
+      button{
+        background-color: $babyBlue;
+        color: $white100;
+        border: none;
+        border-radius: 4px;
+        width: 164px;
+        height: 44px;
+        font-family: $Inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+
+      }
+      .first-item{
+        color: $babyBlue;
+        font-family: $Inter;
+        line-height: 26px;
+        font-size: 16px;
+        margin-top: 24px;
+        white-space: nowrap;
+      }
+      .second-item{
+        font-family: $Epilogue;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-top: 4px;
+       
+      }
+      .third-item{
+        font-family: $Inter;
+        font-size: 14px;
+        font-weight: 400px;
+        line-height: 22px;
+        margin-top: 15px;
+        white-space: nowrap;
+        .time{
+          margin-left: 40px;
+          background-color: $lightGrey100;
+          width: 83px;
+          height: 28px;
+          border-radius: 14px;
+          padding: 4px 8px;
+        }
+      }
+      
+      
+      ul{
+        list-style: none;
       }
     }
-    
-    
-    ul{
-      list-style: none;
-    }
   }
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  
+ 
 }
+
+
 
 
 .footer {

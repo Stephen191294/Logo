@@ -383,17 +383,30 @@ section {
   font-weight: bold;
 }
 
+.sect-7-home .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .sect-7-home .container h4 {
   font-family: "Epilogue", sans-serif;
   font-weight: bold;
   line-height: 68px;
   font-size: 48px;
 }
-.sect-7-home .sect-7-box-container {
-  margin-left: 132px;
-  margin-right: 132px;
+.sect-7-home .container .sect-7-box-container button {
+  background-color: #00BDD6;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  width: 164px;
+  height: 44px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
-.sect-7-home .sect-7-box-container .first-item {
+.sect-7-home .container .sect-7-box-container .first-item {
   color: #00BDD6;
   font-family: "Inter", sans-serif;
   line-height: 26px;
@@ -401,14 +414,14 @@ section {
   margin-top: 24px;
   white-space: nowrap;
 }
-.sect-7-home .sect-7-box-container .second-item {
+.sect-7-home .container .sect-7-box-container .second-item {
   font-family: "Epilogue", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
   margin-top: 4px;
 }
-.sect-7-home .sect-7-box-container .third-item {
+.sect-7-home .container .sect-7-box-container .third-item {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 400px;
@@ -416,16 +429,16 @@ section {
   margin-top: 15px;
   white-space: nowrap;
 }
-.sect-7-home .sect-7-box-container .third-item .time {
-  margin-left: 156px;
+.sect-7-home .container .sect-7-box-container .third-item .time {
+  margin-left: 40px;
+  background-color: #F3F4F6;
+  width: 83px;
+  height: 28px;
+  border-radius: 14px;
+  padding: 4px 8px;
 }
-.sect-7-home .sect-7-box-container ul {
+.sect-7-home .container .sect-7-box-container ul {
   list-style: none;
-}
-.sect-7-home .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .footer {
