@@ -405,6 +405,8 @@ section {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  margin-left: 90px;
+  margin-top: 44px;
 }
 .sect-7-home .container .sect-7-box-container .first-item {
   color: #00BDD6;
@@ -430,7 +432,7 @@ section {
   white-space: nowrap;
 }
 .sect-7-home .container .sect-7-box-container .third-item .time {
-  margin-left: 40px;
+  margin-left: 130px;
   background-color: #F3F4F6;
   width: 83px;
   height: 28px;
