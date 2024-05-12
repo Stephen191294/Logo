@@ -177,6 +177,7 @@
 .sect-4-home {
   background-color: $skyBlue;
   height: 596px;
+  
  
 
   .container {
@@ -226,17 +227,19 @@
   }
 }
 
-.sect-5-home {
-  .container {
-    .button-group{
+.sect-5-home{
+.container{
+}
+}
+ 
+
+    /*.button-group{
       margin-bottom: 28px;
+      display: flex;
+    flex-direction: column;
+   align-items: center
     }
     .sect-5-list{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      ul{
-        list-style: none;
         .first-item-1{
           font-size: 32px;
           font-weight: bold;
@@ -304,15 +307,11 @@
           margin-bottom: 10px;
          
         }
-      }
+      
     }
-   .button-group{
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-   }
-  }
-}
+   
+  }*/
+
 
 .sect-6-home {
   .container {
