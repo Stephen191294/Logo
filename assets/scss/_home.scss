@@ -1,66 +1,60 @@
 @import "./globals";
 @import "./variables";
 
-
 .navbar {
   padding: 14px 24px 14px 28px;
-  .nav-link-1{
+  .nav-link-1 {
     color: $babyBlue;
     font-family: $Inter;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
   }
-  .nav-link-2{
+  .nav-link-2 {
     background-color: $babyBlue;
-    color:$white100;
+    color: $white100;
     width: 80px;
     height: 36px;
     border-radius: 4px;
     padding: 7px 15px 7px 15px;
-   margin-left: 23px; 
+    margin-left: 23px;
   }
   .container-fluid {
-    .nav-bar-list{
-      ul{
+    .nav-bar-list {
+      ul {
         list-style: none;
         display: flex;
-        font-family:$Inter;
+        font-family: $Inter;
         cursor: pointer;
-        li{
+        li {
           margin-left: 24px;
           color: $grey100;
           font-weight: 400;
           font-size: 14px;
           line-height: 22px;
-          
         }
       }
-      
     }
   }
 }
 
 .sect-1-home {
-
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
-  .sect-1-links{
+  .sect-1-links {
     margin-top: 24px;
-    .sect-1-link-1{
+    .sect-1-link-1 {
       background-color: $babyBlue;
       color: $white100;
       width: 200px;
       height: 52px;
       border-radius: 4px;
       padding: 12px 49.5px 12px 49.5px;
-      
     }
-    .sect-1-link-2{
+    .sect-1-link-2 {
       color: $babyBlue;
       border: 1px solid $babyBlue;
       width: 200px;
@@ -68,71 +62,64 @@
       padding: 12px 38.5px 12px 38.5px;
       border-radius: 4px;
       margin-left: 20px;
-     
-  
     }
   }
 
-  .sect-1-img{
+  .sect-1-img {
     display: flex;
     justify-content: center;
-    img{
-     padding-top: 44px;
-     padding-bottom: 96px;
+    img {
+      padding-top: 44px;
+      padding-bottom: 96px;
     }
   }
- 
 }
-
 
 .sect-2-home {
   .container {
-    .row{
+    .row {
       display: flex;
       justify-content: center;
-      .box-1{
-         width: 235px;
+      .box-1 {
+        width: 235px;
         height: 140px;
         padding: 50px 16px 50px 16px;
       }
-      .box-2{
-         width: 235px;
+      .box-2 {
+        width: 235px;
         height: 140px;
         padding: 30px 41px 30px 41px;
       }
-      .box-3{
-         width: 235px;
+      .box-3 {
+        width: 235px;
         height: 140px;
         padding: 30px 28px 29px 29px;
       }
-      .box-4{
+      .box-4 {
         width: 235px;
         height: 140px;
         padding: 31px 42px 31px 42px;
       }
-      .box-5{
+      .box-5 {
         width: 235px;
         height: 140px;
-        padding: 50px 24.8px 49.99px 26.95px
+        padding: 50px 24.8px 49.99px 26.95px;
       }
     }
-   .sect-2-text{
-    display: flex;
-    justify-content: center;
-    p{
-      font-family: $Epilogue;
-      font-size: 24px;
-      line-height: 36px;
-      font-weight:bold;
-      color: $grey200;
-      margin-left: 35px;
+    .sect-2-text {
+      display: flex;
+      justify-content: center;
+      p {
+        font-family: $Epilogue;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: bold;
+        color: $grey200;
+        margin-left: 35px;
+      }
     }
-   }
- 
   }
 }
-
-
 
 .sect-3-home {
   padding-top: 96px;
@@ -141,353 +128,253 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-    .sect-3-link-1{
+
+    .sect-3-link-1 {
       background-color: $babyBlue;
       color: $white100;
       width: 112px;
       height: 44px;
       border-radius: 4px;
       padding: 9px 26px 9px 25px;
-      font-family:$Inter;
+      font-family: $Inter;
     }
-    .sect-3-link-2{
+    .sect-3-link-2 {
       color: $babyBlue;
       width: 118px;
       height: 44px;
       border-radius: 4px;
-      font-family:$Inter;
+      font-family: $Inter;
     }
-    .sect-3-image-1{
+    .sect-3-image-1 {
       margin-top: 178px;
-      
     }
-    .sect-3-image-2{
+    .sect-3-image-2 {
       margin-bottom: 178px;
-      
     }
-    .sect-3-group-1{
+    .sect-3-group-1 {
       margin-right: 220px;
     }
- 
   }
 }
-
 
 .sect-4-home {
   background-color: $skyBlue;
   height: 596px;
   overflow: hidden;
-.container {
+  .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    .profile-pic{
+
+    .profile-pic {
       display: flex;
       margin-top: 80px;
-      img{
-        margin-top: 24px ;
+      img {
+        margin-top: 24px;
       }
-      p{
+      p {
         margin-top: 41px;
         margin-left: 16px;
         font-family: $Inter;
         font-size: 20px;
         line-height: 30px;
         font-weight: bold;
-      
       }
-      
     }
-    .sect-4-img-1{
+    .sect-4-img-1 {
       //margin-top: 97.86px;
       margin-bottom: 49.8px;
-      
     }
-    .sect-4-img-2{
+    .sect-4-img-2 {
       margin-right: 96px;
       margin-top: 50px;
       cursor: pointer;
     }
-    .sect-4-img-3{
+    .sect-4-img-3 {
       margin-left: 96px;
       margin-top: 50px;
       cursor: pointer;
     }
-    
   }
-  .sect-4-group{
+  .sect-4-group {
     display: flex;
-    p{
+    p {
       font-size: 32px;
       line-height: 48px;
       font-weight: 400;
       font-family: $Inter;
       height: 192px;
     }
- 
   }
 }
 
-
-
-.sect-5-home{
-.container{
-  padding-top: 96px;
-  .profile-pic{
-    display: flex;
-  flex-direction: row;
-  }
- 
-  .sect-5-group-1{
-    background-color: $lightGrey200;
-    width: 353px;
-    height: 402px;
-    border-radius: 4px, 0px, 0px, 4px;
-    padding: 24px 74px 24px 24px;
-    
-  }
-  .sect-5-group-2{
-    background-color: $white100;
-    width: 353px;
-    height: 438px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    padding: 28px 0 28px 24px;
-    white-space: nowrap;
-    .popular{
-      margin-left: 86px;
-      white-space: nowrap;
-    }
-  }
-  .button-group{
-    margin-bottom: 28px;
-    h2{
-      font-weight: bold;
-      font-size: 48px;
-      line-height: 68px;
-      p{
-        margin-bottom: 28px;
-      }
-      
-      
-    }
-  }
-  .sect-5-list{
-    display: flex;
-    justify-content: space-between;
-    .first-item-1{
-      font-size: 32px;
-      font-weight: bold;
-      line-height: 48px;
-      font-family: $Epilogue;
-      color:$black100;
-      
-    }
-    .first-item-2{
-      color:$babyBlue;
-      font-size: 40px;
-      line-height: 56px;
-      font-weight: bold;
-      font-family: $Epilogue;
-    }
-    .second-item{
-      font-family: $Inter;
-      font-weight: 400px;
-      font-size: 16px;
-      line-height: 26px;
-      color: $grey300;
-      margin-bottom: 16px;
-    }
-    .price{
-      font-size: 40px;
-      line-height: 56px;
-      font-family: $Epilogue;
-      font-weight: bold;
-      margin-bottom: 17px;
-    }
-    .user-month{
-      font-size: 14px;
-      font-weight: 400;
-      font-family: $Inter;
-      line-height: 22px;
-      color: $grey300;
-    }
-    .last-item-1{
-      display: block;
-      width: 305px;
-      height: 44px;
-      border-radius: 4px;
-      border: 1px solid $babyBlue;
-      color: $babyBlue;
-      padding: 9px 119.5px;
-      margin-top: 19px;
-      white-space: nowrap;
-    }
-    .last-item-2{
-      display: block;
-      background-color: $babyBlue;
-      color: $white100;
-      width: 305px;
-      height: 44px;
-      border-radius: 4px;
-      padding: 9px 119.5px;
-      margin-top: 39px;
-    
-
-    }
-   
-    div{
-      font-size: 14px;
-      font-family: $Inter;
-      line-height: 22px;
-      font-weight: 400;
-      margin-bottom: 10px;
-      color: $black100;
-  
-     
-    }
-    
-  }
-  
-  }
-  
-}
- 
-
-    /*.button-group{
-      margin-bottom: 28px;
+.sect-5-home {
+  .container {
+    padding-top: 96px;
+    .profile-pic {
       display: flex;
-    flex-direction: column;
-   align-items: center
+      flex-direction: row;
     }
-    .sect-5-list{
-     
-        .first-item-2{
-          color:$babyBlue;
-          font-size: 40px;
-          line-height: 56px;
-          font-weight: bold;
-          font-family: $Epilogue;
-        }
-        .second-item{
-          font-family: $Inter;
-          font-weight: 400px;
-          font-size: 16px;
-          line-height: 26px;
-          color: $grey300;
-          margin-bottom: 16px;
-        }
-        .price{
-          font-size: 40px;
-          line-height: 56px;
-          font-family: $Epilogue;
-          font-weight: bold;
-          margin-bottom: 17px;
-        }
-        .user-month{
-          font-size: 14px;
-          font-weight: 400;
-          font-family: $Inter;
-          line-height: 22px;
-          color: $grey300;
-        }
-        .last-item-1{
-          width: 305px;
-          height: 44px;
-          border-radius: 4px;
-          border: 1px solid $babyBlue;
-          color: $babyBlue;
-          padding: 9px 119.5px;
-          margin-top: 29px;
-        }
-        .last-item-2{
-          background-color: $babyBlue;
-          color: $white100;
-          width: 305px;
-          height: 44px;
-          border-radius: 4px;
-          padding: 9px 119.5px;
-        
 
-        }
-        .forth-item{
-          margin-bottom: 29px;
-        }
-        li{
-          font-size: 14px;
-          font-family: $Inter;
-          line-height: 22px;
-          font-weight: 400;
-          margin-bottom: 10px;
-         
-        }
-      
+    .sect-5-group-1 {
+      background-color: $lightGrey200;
+      width: 353px;
+      height: 402px;
+      border-radius: 4px, 0px, 0px, 4px;
+      padding: 24px 74px 24px 24px;
     }
-   
-  }*/
+    .sect-5-group-2 {
+      background-color: $white100;
+      width: 353px;
+      height: 438px;
+      border-radius: 4px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      padding: 28px 0 28px 24px;
+      white-space: nowrap;
+      .popular {
+        margin-left: 86px;
+        white-space: nowrap;
+      }
+    }
+    .button-group {
+      margin-bottom: 28px;
+      h2 {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 68px;
+        p {
+          margin-bottom: 28px;
+        }
+      }
+    }
+    .sect-5-list {
+      display: flex;
+      justify-content: space-between;
+      .first-item-1 {
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 48px;
+        font-family: $Epilogue;
+        color: $black100;
+      }
+      .first-item-2 {
+        color: $babyBlue;
+        font-size: 40px;
+        line-height: 56px;
+        font-weight: bold;
+        font-family: $Epilogue;
+      }
+      .second-item {
+        font-family: $Inter;
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 26px;
+        color: $grey300;
+        margin-bottom: 16px;
+      }
+      .price {
+        font-size: 40px;
+        line-height: 56px;
+        font-family: $Epilogue;
+        font-weight: bold;
+        margin-bottom: 17px;
+      }
+      .user-month {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: $Inter;
+        line-height: 22px;
+        color: $grey300;
+      }
+      .last-item-1 {
+        display: block;
+        width: 305px;
+        height: 44px;
+        border-radius: 4px;
+        border: 1px solid $babyBlue;
+        color: $babyBlue;
+        padding: 9px 119.5px;
+        margin-top: 19px;
+        white-space: nowrap;
+      }
+      .last-item-2 {
+        display: block;
+        background-color: $babyBlue;
+        color: $white100;
+        width: 305px;
+        height: 44px;
+        border-radius: 4px;
+        padding: 9px 119.5px;
+        margin-top: 39px;
+      }
 
+      div {
+        font-size: 14px;
+        font-family: $Inter;
+        line-height: 22px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        color: $black100;
+      }
+    }
+  }
+}
 
 .sect-6-home {
   .container {
     display: flex;
-    .sect-6-txt{ font-family: $Inter;
+    .sect-6-txt {
+      font-family: $Inter;
       font-weight: 400px;
       font-size: 18px;
       line-height: 28px;
       margin-bottom: 20px;
-      color:$black200;
-     
+      color: $black200;
     }
-    .right-section{
+    .right-section {
       height: 384px;
     }
-    .left-section{
+    .left-section {
       background-color: $babyBlue;
       border-radius: 8px 0 0 8px;
       padding: 80px 115px 80px 64px;
       height: 384px;
       overflow: hidden;
 
-      a{
+      a {
         width: 112px;
         height: 52px;
         border-radius: 4px;
         background-color: $white100;
         padding: 12px 24px;
         color: $black100;
-
       }
-      
-      h3{
+
+      h3 {
         color: $white100;
         font-size: 48px;
         font-family: $Epilogue;
         line-height: 68px;
         font-weight: bold;
-        
-        
       }
     }
   }
 }
 
 .sect-7-home {
-  .container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    
-    h4{
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4 {
       font-family: $Epilogue;
       font-weight: bold;
       line-height: 68px;
       font-size: 48px;
-    
     }
-    .sect-7-box-container{
-      button{
+    .sect-7-box-container {
+      button {
         background-color: $babyBlue;
         color: $white100;
         border: none;
@@ -500,9 +387,8 @@
         line-height: 26px;
         margin-left: 90px;
         margin-top: 44px;
-
       }
-      .first-item{
+      .first-item {
         color: $babyBlue;
         font-family: $Inter;
         line-height: 26px;
@@ -510,22 +396,21 @@
         margin-top: 24px;
         white-space: nowrap;
       }
-      .second-item{
+      .second-item {
         font-family: $Epilogue;
         font-size: 24px;
         font-weight: 700;
         line-height: 36px;
         margin-top: 4px;
-       
       }
-      .third-item{
+      .third-item {
         font-family: $Inter;
         font-size: 14px;
         font-weight: 400px;
         line-height: 22px;
         margin-top: 15px;
         white-space: nowrap;
-        .time{
+        .time {
           margin-left: 130px;
           background-color: $lightGrey100;
           width: 83px;
@@ -534,108 +419,93 @@
           padding: 4px 8px;
         }
       }
-      
-      
-      ul{
+
+      ul {
         list-style: none;
       }
     }
   }
-  
- 
 }
-
-
-
 
 .footer {
   padding-top: 96px;
- 
+
   .container {
     display: flex;
-    .footer-list{
+    .footer-list {
       display: flex;
-      ul{
+      ul {
         list-style: none;
         margin-right: 102px;
-        li{
+        li {
           margin-top: 12px;
           font-family: $Inter;
           font-weight: 400;
           line-height: 22px;
           font-size: 14px;
-          input{
+          input {
             height: 35px;
             width: 269px;
             border-radius: 4px, 0px, 0px, 4px;
             padding: 7px 12px 6px 34px;
             border: none;
             background-color: $lightGrey;
-           
           }
-          
         }
-        .first-item{
+        .first-item {
           font-family: $Epilogue;
           font-weight: bold;
           font-size: 20px;
           line-height: 30px;
-         
         }
-        .first-item-1{
+        .first-item-1 {
           color: $babyBlue;
           font-weight: 400;
           line-height: 30px;
           font-size: 20px;
           white-space: nowrap;
         }
-        .second-item{
+        .second-item {
           white-space: nowrap;
         }
-      
       }
     }
-    
   }
 
-  
-  .lower-footer-container{
+  .lower-footer-container {
     display: flex;
     justify-content: space-between;
     margin-top: 175.54px;
     padding-left: 132px;
     padding-right: 134px;
     padding-bottom: 17px;
-    select{
+    select {
       width: 127px;
       height: 35px;
       border-radius: 4px;
       background-color: $lightGrey;
-      border:none;
+      border: none;
     }
   }
-  .input-button{
-    position:absolute;
+  .input-button {
+    position: absolute;
     background-color: $babyBlue;
-    color:$white100;
+    color: $white100;
     padding: 7px 23px 7px 24px;
-    width:114px;
+    width: 114px;
     height: 36px;
     border-radius: 0, 4px, 4px, 0;
-    
-    
-
   }
-  .input-icon{
-    position:absolute;
-    left:68%;
+  .input-icon {
+    position: absolute;
+    left: 68%;
     margin-top: 10px;
   }
-  .footer-logos{
+  .footer-logos {
     white-space: nowrap;
     cursor: pointer;
-    img{
-    margin-left: 21px;
+    img {
+      margin-left: 21px;
     }
   }
 }
