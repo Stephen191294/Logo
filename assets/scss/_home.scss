@@ -177,15 +177,13 @@
 .sect-4-home {
   background-color: $skyBlue;
   height: 596px;
-  
- 
-
-  .container {
+  overflow: hidden;
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     .sect-4-img-1{
-      margin-top: 97.86;
+      //margin-top: 97.86px;
       margin-bottom: 49.8px;
       
     }
@@ -203,33 +201,132 @@
   }
   .sect-4-group{
     display: flex;
-    align-items: center;
-    margin-top: 24px;
     p{
       font-size: 32px;
       line-height: 48px;
       font-weight: 400;
       font-family: $Inter;
+      height: 192px;
     }
-    .sect-4-group-txt{
-      margin-top: 41px;
-      margin-left: 16px;
-      color: $grey300;
-      font-weight: bold;
-      font-size: 20px;
-      font-family: $Inter;
-      .job-title{
-        font-weight: 400;
-        font-size: 20px;
-        font-family: $Inter;
-      }
-    }
+ 
   }
 }
 
+
+
 .sect-5-home{
 .container{
-}
+  padding-top: 96px;
+ 
+  .sect-5-group-1{
+    background-color: $lightGrey200;
+    width: 353px;
+    height: 402px;
+    border-radius: 4px, 0px, 0px, 4px;
+    padding: 24px 74px 24px 24px;
+    
+  }
+  .sect-5-group-2{
+    background-color: $white100;
+    width: 353px;
+    height: 438px;
+    border-radius: 4px;
+    border: 1px solid black;
+    box-shadow: 0 4 9 0;
+    padding: 28px 0 28px 24px;
+  }
+  .button-group{
+    margin-bottom: 28px;
+    h2{
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 68px;
+      p{
+        margin-bottom: 28px;
+      }
+      
+      
+    }
+  }
+  .sect-5-list{
+    display: flex;
+    justify-content: space-between;
+    .first-item-1{
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 48px;
+      font-family: $Epilogue;
+      color:$black100;
+      
+    }
+    .first-item-2{
+      color:$babyBlue;
+      font-size: 40px;
+      line-height: 56px;
+      font-weight: bold;
+      font-family: $Epilogue;
+    }
+    .second-item{
+      font-family: $Inter;
+      font-weight: 400px;
+      font-size: 16px;
+      line-height: 26px;
+      color: $grey300;
+      margin-bottom: 16px;
+    }
+    .price{
+      font-size: 40px;
+      line-height: 56px;
+      font-family: $Epilogue;
+      font-weight: bold;
+      margin-bottom: 17px;
+    }
+    .user-month{
+      font-size: 14px;
+      font-weight: 400;
+      font-family: $Inter;
+      line-height: 22px;
+      color: $grey300;
+    }
+    .last-item-1{
+      display: block;
+      width: 305px;
+      height: 44px;
+      border-radius: 4px;
+      border: 1px solid $babyBlue;
+      color: $babyBlue;
+      padding: 9px 119.5px;
+      margin-top: 19px;
+      white-space: nowrap;
+    }
+    .last-item-2{
+      display: block;
+      background-color: $babyBlue;
+      color: $white100;
+      width: 305px;
+      height: 44px;
+      border-radius: 4px;
+      padding: 9px 119.5px;
+      margin-top: 39px;
+    
+
+    }
+   
+    div{
+      font-size: 14px;
+      font-family: $Inter;
+      line-height: 22px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      color: $black100;
+  
+     
+    }
+    
+  }
+  
+  }
+  
 }
  
 
@@ -240,14 +337,7 @@
    align-items: center
     }
     .sect-5-list{
-        .first-item-1{
-          font-size: 32px;
-          font-weight: bold;
-          line-height: 48px;
-          font-family: $Epilogue;
-          color:$black100;
-          
-        }
+     
         .first-item-2{
           color:$babyBlue;
           font-size: 40px;
@@ -519,7 +609,7 @@
     white-space: nowrap;
     cursor: pointer;
     img{
-      margin-left: 21px;
+    margin-left: 21px;
     }
   }
 }

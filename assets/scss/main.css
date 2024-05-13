@@ -221,6 +221,7 @@ section {
 .sect-4-home {
   background-color: #EBFDFF;
   height: 596px;
+  overflow: hidden;
 }
 .sect-4-home .container {
   display: flex;
@@ -228,7 +229,6 @@ section {
   align-items: center;
 }
 .sect-4-home .container .sect-4-img-1 {
-  margin-top: 97.86;
   margin-bottom: 49.8px;
 }
 .sect-4-home .container .sect-4-img-2 {
@@ -243,55 +243,64 @@ section {
 }
 .sect-4-home .sect-4-group {
   display: flex;
-  align-items: center;
-  margin-top: 24px;
 }
 .sect-4-home .sect-4-group p {
   font-size: 32px;
   line-height: 48px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
-}
-.sect-4-home .sect-4-group .sect-4-group-txt {
-  margin-top: 41px;
-  margin-left: 16px;
-  color: #424955;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-}
-.sect-4-home .sect-4-group .sect-4-group-txt .job-title {
-  font-weight: 400;
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
+  height: 192px;
 }
 
+.sect-5-home .container {
+  padding-top: 96px;
+}
+.sect-5-home .container .sect-5-group-1 {
+  background-color: #F8F9FA;
+  width: 353px;
+  height: 402px;
+  border-radius: 4px, 0px, 0px, 4px;
+  padding: 24px 74px 24px 24px;
+}
+.sect-5-home .container .sect-5-group-2 {
+  background-color: #FFFFFF;
+  width: 353px;
+  height: 438px;
+  border-radius: 4px;
+  border: 1px solid black;
+  box-shadow: 0 4 9 0;
+  padding: 28px 0 28px 24px;
+}
 .sect-5-home .container .button-group {
+  margin-bottom: 28px;
+}
+.sect-5-home .container .button-group h2 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 68px;
+}
+.sect-5-home .container .button-group h2 p {
   margin-bottom: 28px;
 }
 .sect-5-home .container .sect-5-list {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
-.sect-5-home .container .sect-5-list ul {
-  list-style: none;
-}
-.sect-5-home .container .sect-5-list ul .first-item-1 {
+.sect-5-home .container .sect-5-list .first-item-1 {
   font-size: 32px;
   font-weight: bold;
   line-height: 48px;
   font-family: "Epilogue", sans-serif;
   color: #171A1F;
 }
-.sect-5-home .container .sect-5-list ul .first-item-2 {
+.sect-5-home .container .sect-5-list .first-item-2 {
   color: #00BDD6;
   font-size: 40px;
   line-height: 56px;
   font-weight: bold;
   font-family: "Epilogue", sans-serif;
 }
-.sect-5-home .container .sect-5-list ul .second-item {
+.sect-5-home .container .sect-5-list .second-item {
   font-family: "Inter", sans-serif;
   font-weight: 400px;
   font-size: 16px;
@@ -299,53 +308,121 @@ section {
   color: #424955;
   margin-bottom: 16px;
 }
-.sect-5-home .container .sect-5-list ul .price {
+.sect-5-home .container .sect-5-list .price {
   font-size: 40px;
   line-height: 56px;
   font-family: "Epilogue", sans-serif;
   font-weight: bold;
   margin-bottom: 17px;
 }
-.sect-5-home .container .sect-5-list ul .user-month {
+.sect-5-home .container .sect-5-list .user-month {
   font-size: 14px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
   line-height: 22px;
   color: #424955;
 }
-.sect-5-home .container .sect-5-list ul .last-item-1 {
+.sect-5-home .container .sect-5-list .last-item-1 {
+  display: block;
   width: 305px;
   height: 44px;
   border-radius: 4px;
   border: 1px solid #00BDD6;
   color: #00BDD6;
   padding: 9px 119.5px;
-  margin-top: 29px;
+  margin-top: 19px;
+  white-space: nowrap;
 }
-.sect-5-home .container .sect-5-list ul .last-item-2 {
+.sect-5-home .container .sect-5-list .last-item-2 {
+  display: block;
   background-color: #00BDD6;
   color: #FFFFFF;
   width: 305px;
   height: 44px;
   border-radius: 4px;
   padding: 9px 119.5px;
+  margin-top: 39px;
 }
-.sect-5-home .container .sect-5-list ul .forth-item {
-  margin-bottom: 29px;
-}
-.sect-5-home .container .sect-5-list ul li {
+.sect-5-home .container .sect-5-list div {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   line-height: 22px;
   font-weight: 400;
   margin-bottom: 10px;
-}
-.sect-5-home .container .button-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  color: #171A1F;
 }
 
+/*.button-group{
+    margin-bottom: 28px;
+    display: flex;
+  flex-direction: column;
+ align-items: center
+  }
+  .sect-5-list{
+
+      .first-item-2{
+        color:$babyBlue;
+        font-size: 40px;
+        line-height: 56px;
+        font-weight: bold;
+        font-family: $Epilogue;
+      }
+      .second-item{
+        font-family: $Inter;
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 26px;
+        color: $grey300;
+        margin-bottom: 16px;
+      }
+      .price{
+        font-size: 40px;
+        line-height: 56px;
+        font-family: $Epilogue;
+        font-weight: bold;
+        margin-bottom: 17px;
+      }
+      .user-month{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: $Inter;
+        line-height: 22px;
+        color: $grey300;
+      }
+      .last-item-1{
+        width: 305px;
+        height: 44px;
+        border-radius: 4px;
+        border: 1px solid $babyBlue;
+        color: $babyBlue;
+        padding: 9px 119.5px;
+        margin-top: 29px;
+      }
+      .last-item-2{
+        background-color: $babyBlue;
+        color: $white100;
+        width: 305px;
+        height: 44px;
+        border-radius: 4px;
+        padding: 9px 119.5px;
+
+
+      }
+      .forth-item{
+        margin-bottom: 29px;
+      }
+      li{
+        font-size: 14px;
+        font-family: $Inter;
+        line-height: 22px;
+        font-weight: 400;
+        margin-bottom: 10px;
+
+      }
+
+  }
+
+}*/
 .sect-6-home .container {
   display: flex;
 }
