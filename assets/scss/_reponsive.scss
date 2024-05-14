@@ -10,48 +10,8 @@
 
   .sect-2-home {
     .container {
-      .row{
-        display: flex;
-        justify-content: center;
-        .box-1{
-           width: 235px;
-          height: 140px;
-          padding: 50px 16px 50px 16px;
-        }
-        .box-2{
-           width: 235px;
-          height: 140px;
-          padding: 30px 41px 30px 41px;
-        }
-        .box-3{
-           width: 235px;
-          height: 140px;
-          padding: 30px 28px 29px 29px;
-        }
-        .box-4{
-          width: 235px;
-          height: 140px;
-          padding: 31px 42px 31px 42px;
-        }
-        .box-5{
-          width: 235px;
-          height: 140px;
-          padding: 50px 24.8px 49.99px 26.95px
-        }
-      }
-     .sect-2-text{
-      display: flex;
-      justify-content: center;
-      p{
-        font-family: $Epilogue;
-        font-size: 24px;
-        line-height: 36px;
-        font-weight:bold;
-        color: $grey200;
-        margin-left: 35px;
-      }
-     }
-   
     }
   }
+
+  // continue your code here
 }
