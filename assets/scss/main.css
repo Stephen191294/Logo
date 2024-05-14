@@ -475,9 +475,6 @@ section {
   list-style: none;
 }
 
-.footer {
-  padding-top: 96px;
-}
 .footer .container {
   display: flex;
 }
@@ -486,14 +483,14 @@ section {
 }
 .footer .container .footer-list ul {
   list-style: none;
-  margin-right: 102px;
 }
 .footer .container .footer-list ul li {
-  margin-top: 12px;
+  margin-top: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 22px;
   font-size: 14px;
+  cursor: pointer;
 }
 .footer .container .footer-list ul li input {
   height: 35px;
@@ -519,15 +516,15 @@ section {
 .footer .container .footer-list ul .second-item {
   white-space: nowrap;
 }
-.footer .lower-footer-container {
+.footer .container {
   display: flex;
   justify-content: space-between;
-  margin-top: 175.54px;
+  margin-top: 124px;
   padding-left: 132px;
   padding-right: 134px;
   padding-bottom: 17px;
 }
-.footer .lower-footer-container select {
+.footer .container select {
   width: 127px;
   height: 35px;
   border-radius: 4px;
@@ -545,7 +542,7 @@ section {
 }
 .footer .input-icon {
   position: absolute;
-  left: 68%;
+  left: 67%;
   margin-top: 10px;
 }
 .footer .footer-logos {
