@@ -333,7 +333,6 @@ section {
 }
 .sect-5-home .container .sect-5-list {
   display: flex;
-  justify-content: space-between;
 }
 .sect-5-home .container .sect-5-list .first-item-1 {
   font-size: 32px;
