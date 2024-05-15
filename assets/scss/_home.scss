@@ -1,6 +1,7 @@
 @import "./globals";
 @import "./variables";
 
+
 .navbar {
   padding: 14px 24px 14px 28px;
   .nav-link-1 {
@@ -418,6 +419,7 @@
       font-size: 48px;
     }
     .sect-7-box-container {
+      padding-bottom: 96px;
       button {
         background-color: $babyBlue;
         color: $white100;
@@ -476,17 +478,31 @@
   }
 }
 
-.footer {
-  background-color: $ligtGrey300;
+
+
+
+
+/*.footer {
+  height: 356px;
+section{
+  padding: 0;
+  select {
+    width: 127px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: $lightGrey300;
+    border: none;
+  }
+}
 
   .container {
     display: flex;
-    padding-top: 109px;
+    flex-direction: row;
     .footer-list {
       display: flex;
       ul {
         list-style: none;
-        //margin-right: 102px;
+        margin-left: 102px;
         li {
           margin-top: 16px;
           font-family: $Inter;
@@ -523,20 +539,16 @@
     }
   }
 
-  .container {
+  .container-1 {
     display: flex;
-    justify-content: space-between;
-    margin-top: 124px;
-    padding-left: 132px;
-    padding-right: 134px;
+  justify-content: center;
+   justify-content: space-between;
+    padding-top: 124px;
+    margin-left: 132px;
     padding-bottom: 17px;
-    select {
-      width: 127px;
-      height: 35px;
-      border-radius: 4px;
-      background-color: $lightGrey;
-      border: none;
-    }
+   
+   
+    
   }
   .input-button {
     position: absolute;
@@ -546,11 +558,6 @@
     width: 114px;
     height: 36px;
     border-radius: 0, 4px, 4px, 0;
-  }
-  .input-icon {
-    position: absolute;
-    left: 67%;
-    margin-top: 10px;
   }
   .footer-logos {
     white-space: nowrap;
