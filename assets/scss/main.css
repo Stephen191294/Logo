@@ -503,6 +503,9 @@ section {
   line-height: 68px;
   font-size: 48px;
 }
+.sect-7-home .container .sect-7-box-container {
+  padding-bottom: 96px;
+}
 .sect-7-home .container .sect-7-box-container button {
   background-color: #00BDD6;
   color: #FFFFFF;
@@ -559,6 +562,8 @@ section {
 
 .footer {
   background-color: #FAFAFB;
+  height: 356px;
+  padding-top: 109px;
 }
 .footer .container {
   display: flex;
@@ -568,6 +573,7 @@ section {
 }
 .footer .container .footer-list ul {
   list-style: none;
+  margin-bottom: 124px;
 }
 .footer .container .footer-list ul li {
   margin-top: 16px;
@@ -604,9 +610,7 @@ section {
 .footer .container {
   display: flex;
   justify-content: space-between;
-  margin-top: 124px;
   padding-left: 132px;
-  padding-right: 134px;
   padding-bottom: 17px;
 }
 .footer .container select {

@@ -418,6 +418,7 @@
       font-size: 48px;
     }
     .sect-7-box-container {
+      padding-bottom: 96px;
       button {
         background-color: $babyBlue;
         color: $white100;
@@ -478,6 +479,8 @@
 
 .footer {
   background-color: $ligtGrey300;
+  height: 356px;
+  padding-top: 109px;
 
   .container {
     display: flex;
@@ -485,7 +488,7 @@
       display: flex;
       ul {
         list-style: none;
-        //margin-right: 102px;
+        margin-bottom: 124px;
         li {
           margin-top: 16px;
           font-family: $Inter;
@@ -525,9 +528,7 @@
   .container {
     display: flex;
     justify-content: space-between;
-    margin-top: 124px;
     padding-left: 132px;
-    padding-right: 134px;
     padding-bottom: 17px;
     select {
       width: 127px;
