@@ -143,17 +143,22 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    .sect-3-text{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      font-family: $Inter;
+      color:$grey200;
+      width: 476px;
+     // height: 112px:
+
+    }
     h1{
       font-weight: bold;
       font-size: 40px;
       line-height: 56px;
       font-family: $Epilogue;
-      p{
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 28px;
-        font-family: $Inter;
-      }
+      
     }
 
     .sect-3-link-1 {
@@ -193,11 +198,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    .sect-4-text{
+      overflow: hidden;
+      height: 192px;
+      width: 880px;
+    }
     
 
     .profile-pic {
       display: flex;
-      margin-top: 80px;
+      margin-top: 20px;
       img {
         margin-top: 24px;
       }
@@ -251,6 +261,8 @@
       height: 402px;
       border-radius: 4px, 0px, 0px, 4px;
       padding: 24px 74px 24px 24px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
     }
     .sect-5-group-2 {
       background-color: $white100;
@@ -278,7 +290,7 @@
     }
     .sect-5-list {
       display: flex;
-      justify-content: space-between;
+  
       .first-item-1 {
         font-size: 32px;
         font-weight: bold;
@@ -441,6 +453,7 @@
         font-weight: 400px;
         line-height: 22px;
         margin-top: 15px;
+        margin-bottom: 27px;
         white-space: nowrap;
         .time {
           margin-left: 130px;
@@ -454,6 +467,10 @@
 
       ul {
         list-style: none;
+        border: 1px solid transparent;
+        width: 376px;
+        border-radius: 0 0 6px 6px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
       }
     }
   }
