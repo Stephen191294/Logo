@@ -36,6 +36,17 @@ a {
   }
 }
 
+.container-1 {
+  max-width: 100% !important;
+  padding: 0 16px !important;
+}
+@media screen and (min-width: 1200px) {
+  .container-1 {
+    padding: 0 16px !important;
+    max-width: 1200px !important;
+  }
+}
+
 section {
   padding-top: 50px;
 }
@@ -67,6 +78,17 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .container {
+    padding: 0 16px !important;
+    max-width: 1200px !important;
+  }
+}
+
+.container-1 {
+  max-width: 100% !important;
+  padding: 0 16px !important;
+}
+@media screen and (min-width: 1200px) {
+  .container-1 {
     padding: 0 16px !important;
     max-width: 1200px !important;
   }
@@ -563,17 +585,35 @@ section {
 .footer {
   background-color: #FAFAFB;
   height: 356px;
+<<<<<<< HEAD
   padding-top: 109px;
+=======
+}
+.footer section {
+  padding: 0;
+}
+.footer section select {
+  width: 127px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: #EAECEF;
+  border: none;
+>>>>>>> 6691b7a3310199bdb71538038067d289dbd25ed4
 }
 .footer .container {
   display: flex;
+  flex-direction: row;
 }
 .footer .container .footer-list {
   display: flex;
 }
 .footer .container .footer-list ul {
   list-style: none;
+<<<<<<< HEAD
   margin-bottom: 124px;
+=======
+  margin-left: 102px;
+>>>>>>> 6691b7a3310199bdb71538038067d289dbd25ed4
 }
 .footer .container .footer-list ul li {
   margin-top: 16px;
@@ -607,18 +647,18 @@ section {
 .footer .container .footer-list ul .second-item {
   white-space: nowrap;
 }
-.footer .container {
+.footer .container-1 {
   display: flex;
+  justify-content: center;
   justify-content: space-between;
+<<<<<<< HEAD
   padding-left: 132px;
+=======
+  padding-top: 124px;
+  margin-left: 132px;
+>>>>>>> 6691b7a3310199bdb71538038067d289dbd25ed4
   padding-bottom: 17px;
-}
-.footer .container select {
-  width: 127px;
-  height: 35px;
-  border-radius: 4px;
-  background-color: #EAECEF;
-  border: none;
+  background-color: #424955;
 }
 .footer .input-button {
   position: absolute;
@@ -628,11 +668,6 @@ section {
   width: 114px;
   height: 36px;
   border-radius: 0, 4px, 4px, 0;
-}
-.footer .input-icon {
-  position: absolute;
-  left: 67%;
-  margin-top: 10px;
 }
 .footer .footer-logos {
   white-space: nowrap;
