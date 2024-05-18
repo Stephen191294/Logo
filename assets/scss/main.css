@@ -643,24 +643,22 @@ section {
        object-fit: contain;
     margin-bottom: 30px;
   }
-  .sect-3-home {
-    padding: 30px 0;
-  }
   .sect-3-home .container {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .sect-3-home .container .sect-3-link-group {
     text-align: center;
   }
   .sect-3-home .container .sect-3-group-1 {
     margin-right: 0;
+    white-space: wrap;
   }
   .sect-3-home .container .sect-3-group-1 .sect-3-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     width: auto;
-    text-align: center;
   }
   .sect-3-home .container .sect-3-group-1 h1 {
     font-weight: bold;
