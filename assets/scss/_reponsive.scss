@@ -1,21 +1,4 @@
 @import "./globals";
 @import "./variables";
 
-@include responsive(mobile) {
-  
 
- 
-  .sect-1-home {
-    background-color: red !important;
-    // .container {
-    // }
-  }
-
-  .sect-2-home {
-    .container {
-    }
-  }
-
-  // continue your code here
-  
-}
