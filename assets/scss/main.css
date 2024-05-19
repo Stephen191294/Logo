@@ -859,6 +859,9 @@ section {
     margin-bottom: 10px;
     color: #171A1F;
   }
+  .sect-6-home {
+    width: auto;
+  }
   .sect-6-home .container {
     display: flex;
     flex-direction: column;
@@ -916,6 +919,8 @@ section {
   }
   .sect-7-home .container .sect-7-box-container {
     padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
   }
   .sect-7-home .container .sect-7-box-container button {
     display: none;

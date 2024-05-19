@@ -907,6 +907,7 @@
   }
   
   .sect-6-home {
+    width: auto;
     .container {
       display: flex;
       flex-direction: column;
@@ -920,6 +921,7 @@
         color: $black200;
       }
       .right-section {
+
         height: 384px;
         margin-left: 10%;
         
@@ -960,6 +962,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      //margin-left: 18%;
+    
       
       p {
         margin-bottom: 44px;
@@ -974,6 +978,8 @@
       }
       .sect-7-box-container {
         padding-bottom: 96px;
+        display: flex;
+        flex-direction: column;
         button {
           display: none;
           background-color: $babyBlue;
