@@ -36,22 +36,34 @@
   }
 
   .sect-1-home {
+    display: flex;
+    flex-direction: row;
+    width: auto;
     .container {
+      width: auto;
       display: block;
+      white-space: normal;
+      
       h1 {
+       width: 100%;
         font-size: 35px;
         text-align: center;
-        white-space: wrap;
+        white-space: wrap;     
       }
       p {
+        width: 100%;
         font-size: 16px;
-        line-height: 30px;
+       line-height: 30px;
         white-space: wrap;
         text-align: center;
+       
       }
+      
 
       .sect-1-links {
+        width: auto;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         column-gap: 20px;
         a:nth-child(1) {
@@ -64,6 +76,7 @@
           width: auto;
           height: auto;
           color: $babyBlue;
+          margin-top: 10px;
           border: 1px solid $babyBlue;
           padding: 8px 12px;
         }
@@ -86,6 +99,7 @@
           font-size: 24px;
           line-height: 36px;
           margin-bottom: 30px;
+          
         }
       }
       .item-img-sect-2 {
@@ -101,16 +115,21 @@
   }
 
   .sect-3-home {
-    //padding: 30px 0;
+    display: none;
+    width: auto;
+  
+  
     .container {
+      width: auto;
       display: flex;
       flex-direction: column;
+      
       .sect-3-link-group{
         text-align: center;
       }
       .sect-3-group-1 {
         margin-right: 0;
-        white-space: wrap;
+       white-space: wrap;
         .sect-3-text {
           font-weight: 400;
           font-size: 18px;
@@ -128,6 +147,7 @@
       }
 
       .sect-3-link-1 {
+        text-align: center;
         background-color: $babyBlue;
         color: $white100;
         width: 112px;
@@ -137,6 +157,7 @@
         font-family: $Inter;
       }
       .sect-3-link-2 {
+        text-align: center;
         color: $babyBlue;
         width: 118px;
         height: 44px;
@@ -157,7 +178,7 @@
       ;
       }
       .sect-3-group-1 {
-        margin-right: auto;
+       // margin-right: auto;
       }
       .sect-3-group-2{
        
@@ -166,6 +187,7 @@
         }
         p{
           text-align: center;
+         width: auto;
           
         }
       }
@@ -176,24 +198,17 @@
 
 
   .sect-4-home {
-    display: flex;
     background-color: $skyBlue;
-    height: 30%;
-    width: 100%;
+    width: auto;
    
   
     .container {
-      display: flex;
-      flex-direction: column;
       align-items: center;
       .sect-4-text {
-        height: 100%;
-        width: 100%;
-        white-space: wrap;
+        white-space: normal;
       }
   
       .profile-pic {
-        display: flex;
         margin-top: 30px;
         margin-bottom: 20px;
         p {
@@ -203,11 +218,10 @@
           font-size: 20px;
           line-height: 30px;
           font-weight: bold;
-          white-space: wrap;
+       
         }
       }
       .sect-4-img-1 {
-        //margin-top: 97.86px;
         margin-bottom: 49.8px;
       }
       .sect-4-img-2 {
@@ -222,7 +236,12 @@
       }
     }
     .sect-4-group {
+      width: auto;
+      .section-4-paragraph{
+        width: auto;
+      }
       p {
+        width: auto;
         font-size: 32px;
         line-height: 48px;
         font-weight: 400;
@@ -238,6 +257,7 @@
       .profile-pic {
         display: flex;
         flex-direction: row;
+        align-items: center;
       }
   
       .sect-5-group-1 {
@@ -263,7 +283,10 @@
         }
       }
       .button-group {
+        display: flex;
+        flex-direction: column;
         margin-bottom: 28px;
+        align-items: center;
         h2 {
           font-weight: bold;
           font-size: 48px;
@@ -353,6 +376,7 @@
     .container {
       display: flex;
       flex-direction: column;
+      align-items: center ;
     
       .sect-6-txt {
         font-family: $Inter;
@@ -363,20 +387,15 @@
         color: $black200;
       }
       .right-section {
-
-        height: 384px;
-        margin-left: 10%;
-        
+        width: auto;
+       
         
       }
       .left-section {
-        margin-left: 10%;
         background-color: $babyBlue;
         border-radius: 0 8px 8px 0;
-        padding: 80px 115px 80px 64px;
         height: 384px;
-        overflow: hidden;
-        width: 590px;
+        width: auto;
   
         a {
           width: 112px;
@@ -404,7 +423,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      //margin-left: 18%;
     
       
       p {
@@ -422,6 +440,13 @@
         padding-bottom: 96px;
         display: flex;
         flex-direction: column;
+        .inner-box-container{
+          overflow: hidden;
+          white-space: wrap;
+          //text-align: center;
+         
+         width: 100%;
+        }
         button {
           display: none;
           background-color: $babyBlue;
@@ -438,29 +463,36 @@
           margin-top: 44px;
         }
         .first-item {
+          text-align: center;
+          width: auto;
           color: $babyBlue;
           font-family: $Inter;
           line-height: 26px;
           font-size: 16px;
           margin-top: 24px;
-          white-space: nowrap;
+          
         }
         .second-item {
+         // display: none;
+         text-align: center;
           font-family: $Epilogue;
-          font-size: 24px;
-          font-weight: 700;
+          font-size: 10px;
+         font-weight: 700;
           line-height: 36px;
           margin-top: 4px;
+          
         }
         .third-item {
+          display: none;
           font-family: $Inter;
           font-size: 14px;
-          font-weight: 400px;
+          font-weight: 400;
           line-height: 22px;
           margin-top: 15px;
           margin-bottom: 27px;
-          white-space: nowrap;
+          white-space: wrap;
           .time {
+           //display: none;
             margin-left: 130px;
             background-color: $lightGrey100;
             width: 83px;
@@ -476,6 +508,8 @@
           width: 376px;
           border-radius: 0 0 6px 6px;
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          overflow: hidden;
+         padding-right: 24px;
         }
       }
     }

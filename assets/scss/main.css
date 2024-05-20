@@ -127,22 +127,33 @@ section {
     font-size: 14px;
     line-height: 22px;
   }
+  .sect-1-home {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
   .sect-1-home .container {
+    width: auto;
     display: block;
+    white-space: normal;
   }
   .sect-1-home .container h1 {
+    width: 100%;
     font-size: 35px;
     text-align: center;
     white-space: wrap;
   }
   .sect-1-home .container p {
+    width: 100%;
     font-size: 16px;
     line-height: 30px;
     white-space: wrap;
     text-align: center;
   }
   .sect-1-home .container .sect-1-links {
+    width: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     -moz-column-gap: 20px;
          column-gap: 20px;
@@ -157,6 +168,7 @@ section {
     width: auto;
     height: auto;
     color: #00BDD6;
+    margin-top: 10px;
     border: 1px solid #00BDD6;
     padding: 8px 12px;
   }
@@ -182,7 +194,12 @@ section {
        object-fit: contain;
     margin-bottom: 30px;
   }
+  .sect-3-home {
+    display: none;
+    width: auto;
+  }
   .sect-3-home .container {
+    width: auto;
     display: flex;
     flex-direction: column;
   }
@@ -207,6 +224,7 @@ section {
     text-align: center;
   }
   .sect-3-home .container .sect-3-link-1 {
+    text-align: center;
     background-color: #00BDD6;
     color: #FFFFFF;
     width: 112px;
@@ -216,6 +234,7 @@ section {
     font-family: "Inter", sans-serif;
   }
   .sect-3-home .container .sect-3-link-2 {
+    text-align: center;
     color: #00BDD6;
     width: 118px;
     height: 44px;
@@ -229,33 +248,24 @@ section {
     width: 100%;
     margin-top: 100px;
   }
-  .sect-3-home .container .sect-3-group-1 {
-    margin-right: auto;
-  }
   .sect-3-home .container .sect-3-group-2 h1 {
     text-align: center;
   }
   .sect-3-home .container .sect-3-group-2 p {
     text-align: center;
+    width: auto;
   }
   .sect-4-home {
-    display: flex;
     background-color: #EBFDFF;
-    height: 30%;
-    width: 100%;
+    width: auto;
   }
   .sect-4-home .container {
-    display: flex;
-    flex-direction: column;
     align-items: center;
   }
   .sect-4-home .container .sect-4-text {
-    height: 100%;
-    width: 100%;
-    white-space: wrap;
+    white-space: normal;
   }
   .sect-4-home .container .profile-pic {
-    display: flex;
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -266,7 +276,6 @@ section {
     font-size: 20px;
     line-height: 30px;
     font-weight: bold;
-    white-space: wrap;
   }
   .sect-4-home .container .sect-4-img-1 {
     margin-bottom: 49.8px;
@@ -281,7 +290,14 @@ section {
     margin-top: 50px;
     cursor: pointer;
   }
+  .sect-4-home .sect-4-group {
+    width: auto;
+  }
+  .sect-4-home .sect-4-group .section-4-paragraph {
+    width: auto;
+  }
   .sect-4-home .sect-4-group p {
+    width: auto;
     font-size: 32px;
     line-height: 48px;
     font-weight: 400;
@@ -294,6 +310,7 @@ section {
   .sect-5-home .container .profile-pic {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
   .sect-5-home .container .sect-5-group-1 {
     background-color: #F8F9FA;
@@ -318,7 +335,10 @@ section {
     white-space: nowrap;
   }
   .sect-5-home .container .button-group {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 28px;
+    align-items: center;
   }
   .sect-5-home .container .button-group h2 {
     font-weight: bold;
@@ -404,6 +424,7 @@ section {
   .sect-6-home .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .sect-6-home .container .sect-6-txt {
     font-family: "Inter", sans-serif;
@@ -414,17 +435,13 @@ section {
     color: #1D2128;
   }
   .sect-6-home .container .right-section {
-    height: 384px;
-    margin-left: 10%;
+    width: auto;
   }
   .sect-6-home .container .left-section {
-    margin-left: 10%;
     background-color: #00BDD6;
     border-radius: 0 8px 8px 0;
-    padding: 80px 115px 80px 64px;
     height: 384px;
-    overflow: hidden;
-    width: 590px;
+    width: auto;
   }
   .sect-6-home .container .left-section a {
     width: 112px;
@@ -461,6 +478,11 @@ section {
     display: flex;
     flex-direction: column;
   }
+  .sect-7-home .container .sect-7-box-container .inner-box-container {
+    overflow: hidden;
+    white-space: wrap;
+    width: 100%;
+  }
   .sect-7-home .container .sect-7-box-container button {
     display: none;
     background-color: #00BDD6;
@@ -477,28 +499,31 @@ section {
     margin-top: 44px;
   }
   .sect-7-home .container .sect-7-box-container .first-item {
+    text-align: center;
+    width: auto;
     color: #00BDD6;
     font-family: "Inter", sans-serif;
     line-height: 26px;
     font-size: 16px;
     margin-top: 24px;
-    white-space: nowrap;
   }
   .sect-7-home .container .sect-7-box-container .second-item {
+    text-align: center;
     font-family: "Epilogue", sans-serif;
-    font-size: 24px;
+    font-size: 10px;
     font-weight: 700;
     line-height: 36px;
     margin-top: 4px;
   }
   .sect-7-home .container .sect-7-box-container .third-item {
+    display: none;
     font-family: "Inter", sans-serif;
     font-size: 14px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 22px;
     margin-top: 15px;
     margin-bottom: 27px;
-    white-space: nowrap;
+    white-space: wrap;
   }
   .sect-7-home .container .sect-7-box-container .third-item .time {
     margin-left: 130px;
@@ -514,6 +539,8 @@ section {
     width: 376px;
     border-radius: 0 0 6px 6px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding-right: 24px;
   }
   footer select {
     margin-left: 42%;
@@ -615,15 +642,19 @@ section {
   font-family: "Epilogue", sans-serif;
   line-height: 78px;
   font-size: 56px;
-  white-space: nowrap;
+  text-align: center;
 }
-.sect-1-home .container p {
+.sect-1-home .container h1 p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   color: #9095A0;
-  white-space: nowrap;
+  text-align: center;
+}
+.sect-1-home .container h1 p span {
+  display: block;
+  text-align: center;
 }
 .sect-1-home .container .sect-1-links {
   margin-top: 24px;
@@ -717,7 +748,7 @@ section {
 
 .sect-4-home {
   background-color: #EBFDFF;
-  height: 596px;
+  width: auto;
   overflow: hidden;
 }
 .sect-4-home .container {
@@ -726,13 +757,13 @@ section {
   align-items: center;
 }
 .sect-4-home .container .sect-4-text {
-  overflow: hidden;
-  height: 192px;
-  width: 880px;
+  height: 100%;
+  width: 100%;
 }
 .sect-4-home .container .profile-pic {
   display: flex;
   margin-top: 20px;
+  margin-bottom: 96px;
 }
 .sect-4-home .container .profile-pic img {
   margin-top: 24px;
@@ -889,10 +920,13 @@ section {
   margin-bottom: 20px;
   color: #1D2128;
 }
-.sect-6-home .container .right-section {
+.sect-6-home .container .right-section img {
+  width: 588px;
   height: 384px;
 }
 .sect-6-home .container .left-section {
+  width: 588px;
+  height: 384px;
   background-color: #00BDD6;
   border-radius: 8px 0 0 8px;
   padding: 80px 115px 80px 64px;
@@ -919,6 +953,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: auto;
 }
 .sect-7-home .container p {
   margin-bottom: 44px;
@@ -928,6 +963,7 @@ section {
   font-weight: bold;
   line-height: 68px;
   font-size: 48px;
+  width: auto;
 }
 .sect-7-home .container .sect-7-box-container {
   padding-bottom: 96px;
@@ -964,13 +1000,14 @@ section {
 .sect-7-home .container .sect-7-box-container .third-item {
   font-family: "Inter", sans-serif;
   font-size: 14px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 22px;
   margin-top: 15px;
   margin-bottom: 27px;
   white-space: nowrap;
 }
 .sect-7-home .container .sect-7-box-container .third-item .time {
+  display: inline;
   margin-left: 130px;
   background-color: #F3F4F6;
   width: 83px;
@@ -984,4 +1021,78 @@ section {
   width: 376px;
   border-radius: 0 0 6px 6px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #FAFAFB;
+}
+footer .container section {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container section .ft-main-item h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+footer .container section .ft-main-item ul {
+  list-style: none;
+  cursor: pointer;
+  padding-left: 0;
+}
+footer .container section .ft-main-item ul .li-1 {
+  margin-top: 16px;
+}
+footer .container section .ft-main-item ul li {
+  margin-top: 12px;
+}
+footer .container section .ft-main-item .ft-title-1 {
+  color: #00BDD6;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 20px;
+  white-space: nowrap;
+}
+footer .container section .ft-main-item p {
+  color: #424955;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+footer .container section .ft-main-item form input {
+  background-color: #eaecef;
+  width: 269px;
+  height: 35px;
+  border-radius: 4px, 0px, 0px, 4px;
+  color: #bcc1ca;
+  font-size: 14px;
+  line-height: 22px;
+  border: none;
+  padding: 7px 129px 6px 34px;
+}
+footer .container section .ft-main-item form .input-2 {
+  background-color: #00BDD6;
+  color: #FFFFFF;
+  padding: 7px 23px 7px 24px;
+  width: 114px;
+  height: 36px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  position: absolute;
+}
+footer .container .ft-social {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .ft-social select {
+  width: 127px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: #eaecef;
+  border: none;
+  padding: 7px 13px 6px 12px;
+  border: none;
+}
+footer .container .ft-social .ft-social-list img {
+  margin-right: 21px;
 }/*# sourceMappingURL=main.css.map */
