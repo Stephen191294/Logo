@@ -43,22 +43,20 @@
       width: auto;
       display: block;
       white-space: normal;
-      
+
       h1 {
-       width: 100%;
+        width: 100%;
         font-size: 35px;
         text-align: center;
-        white-space: wrap;     
+        white-space: wrap;
       }
       p {
         width: 100%;
         font-size: 16px;
-       line-height: 30px;
+        line-height: 30px;
         white-space: wrap;
         text-align: center;
-       
       }
-      
 
       .sect-1-links {
         width: auto;
@@ -99,7 +97,6 @@
           font-size: 24px;
           line-height: 36px;
           margin-bottom: 30px;
-          
         }
       }
       .item-img-sect-2 {
@@ -117,25 +114,23 @@
   .sect-3-home {
     display: none;
     width: auto;
-  
-  
+
     .container {
       width: auto;
       display: flex;
       flex-direction: column;
-      
-      .sect-3-link-group{
+
+      .sect-3-link-group {
         text-align: center;
       }
       .sect-3-group-1 {
         margin-right: 0;
-       white-space: wrap;
+        white-space: wrap;
         .sect-3-text {
           font-weight: 400;
           font-size: 18px;
           line-height: 28px;
           width: auto;
-         
         }
         h1 {
           font-weight: bold;
@@ -163,51 +158,43 @@
         height: 44px;
         border-radius: 4px;
         font-family: $Inter;
-      
       }
       .sect-3-image-1 {
-       // margin-top: 178px;
-       //margin-left: 50px;
-       width: 100%;
+        // margin-top: 178px;
+        //margin-left: 50px;
+        width: 100%;
       }
       .sect-3-image-2 {
-       // margin-bottom: 178px;
-       width: 100%;
+        // margin-bottom: 178px;
+        width: 100%;
 
-       margin-top: 100px;
-      ;
+        margin-top: 100px;
       }
       .sect-3-group-1 {
-       // margin-right: auto;
+        // margin-right: auto;
       }
-      .sect-3-group-2{
-       
-        h1{
+      .sect-3-group-2 {
+        h1 {
           text-align: center;
         }
-        p{
+        p {
           text-align: center;
-         width: auto;
-          
+          width: auto;
         }
       }
     }
   }
 
-  // continue your code here
-
-
   .sect-4-home {
     background-color: $skyBlue;
     width: auto;
-   
-  
+
     .container {
       align-items: center;
       .sect-4-text {
         white-space: normal;
       }
-  
+
       .profile-pic {
         margin-top: 30px;
         margin-bottom: 20px;
@@ -218,7 +205,6 @@
           font-size: 20px;
           line-height: 30px;
           font-weight: bold;
-       
         }
       }
       .sect-4-img-1 {
@@ -237,7 +223,7 @@
     }
     .sect-4-group {
       width: auto;
-      .section-4-paragraph{
+      .section-4-paragraph {
         width: auto;
       }
       p {
@@ -250,7 +236,7 @@
       }
     }
   }
-  
+
   .sect-5-home {
     .container {
       padding-top: 96px;
@@ -259,7 +245,7 @@
         flex-direction: row;
         align-items: center;
       }
-  
+
       .sect-5-group-1 {
         background-color: $lightGrey200;
         width: 353px;
@@ -300,7 +286,7 @@
         display: flex;
         flex-direction: column;
         margin-left: 20%;
-  
+
         .first-item-1 {
           font-size: 32px;
           font-weight: bold;
@@ -358,7 +344,7 @@
           padding: 9px 119.5px;
           margin-top: 39px;
         }
-  
+
         div {
           font-size: 14px;
           font-family: $Inter;
@@ -370,14 +356,14 @@
       }
     }
   }
-  
+
   .sect-6-home {
     width: auto;
     .container {
       display: flex;
       flex-direction: column;
-      align-items: center ;
-    
+      align-items: center;
+
       .sect-6-txt {
         font-family: $Inter;
         font-weight: 400px;
@@ -388,15 +374,13 @@
       }
       .right-section {
         width: auto;
-       
-        
       }
       .left-section {
         background-color: $babyBlue;
         border-radius: 0 8px 8px 0;
         height: 384px;
         width: auto;
-  
+
         a {
           width: 112px;
           height: 52px;
@@ -405,9 +389,8 @@
           padding: 12px 24px;
           color: $black100;
         }
-  
+
         h3 {
-          
           color: $white100;
           font-size: 48px;
           font-family: $Epilogue;
@@ -420,114 +403,58 @@
 
   .sect-7-home {
     .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    
-      
+      padding: 0 20px;
       p {
         margin-bottom: 44px;
-        text-align: center;
       }
-  
       h4 {
-        font-family: $Epilogue;
-        font-weight: bold;
         line-height: 68px;
-        font-size: 48px;
+        font-size: 28px;
       }
+      // In this code block, I only changed the CSS code that I wanted to change when it was only in mobile view
       .sect-7-box-container {
-        padding-bottom: 96px;
-        display: flex;
-        flex-direction: column;
-        .inner-box-container{
-          overflow: hidden;
-          white-space: wrap;
-          //text-align: center;
-         
-         width: 100%;
-        }
-        button {
-          display: none;
-          background-color: $babyBlue;
-          color: $white100;
-          border: none;
-          border-radius: 4px;
-          width: 164px;
-          height: 44px;
-          font-family: $Inter;
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 26px;
-          margin-left: 90px;
-          margin-top: 44px;
-        }
-        .first-item {
-          text-align: center;
-          width: auto;
-          color: $babyBlue;
-          font-family: $Inter;
-          line-height: 26px;
-          font-size: 16px;
-          margin-top: 24px;
-          
-        }
-        .second-item {
-         // display: none;
-         text-align: center;
-          font-family: $Epilogue;
-          font-size: 10px;
-         font-weight: 700;
-          line-height: 36px;
-          margin-top: 4px;
-          
-        }
-        .third-item {
-          display: none;
-          font-family: $Inter;
-          font-size: 14px;
-          font-weight: 400;
-          line-height: 22px;
-          margin-top: 15px;
-          margin-bottom: 27px;
-          white-space: wrap;
-          .time {
-           //display: none;
-            margin-left: 130px;
-            background-color: $lightGrey100;
-            width: 83px;
-            height: 28px;
-            border-radius: 14px;
-            padding: 4px 8px;
+        // this code responsive mobile
+        .inner-box-container {
+          // here, I just called the .inner-box-container class to provide margin-bootom: 20px; so that each card has a distance
+          margin-bottom: 30px;
+          .first-item {
+            font-size: 16px;
+            margin-top: 10px;
           }
-        }
-  
-        ul {
-          list-style: none;
-          border: 1px solid transparent;
-          width: 376px;
-          border-radius: 0 0 6px 6px;
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-          overflow: hidden;
-         padding-right: 24px;
+          .second-item {
+            font-size: 20px;
+            line-height: 1.4;
+            margin-top: 10px;
+          }
+          .third-item {
+            font-size: 14px;
+            margin-top: 15px;
+            margin-bottom: 27px;
+            .time {
+              margin-left: 130px;
+              width: 83px;
+              height: 28px;
+              padding: 4px 8px;
+            }
+          }
+          ul {
+            padding: 10px;
+            width: auto;
+          }
         }
       }
     }
   }
 
-footer{
-  select{
-  margin-left: 42%;
-  margin-bottom: 10px;
+  footer {
+    select {
+      margin-left: 42%;
+      margin-bottom: 10px;
+    }
+    section {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
   }
-  section{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
- 
-}
-
-
-
 }
