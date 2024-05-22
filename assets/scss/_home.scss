@@ -126,7 +126,7 @@
     //   }
     // }
     .text-title {
-      h1 {
+      h2 {
         font-family: $Epilogue;
         font-size: 24px;
         line-height: 36px;
@@ -159,7 +159,7 @@
       width: 476px;
       // height: 112px:
     }
-    h1 {
+    h3 {
       font-weight: bold;
       font-size: 40px;
       line-height: 56px;
@@ -189,8 +189,21 @@
     .sect-3-image-2 {
       margin-bottom: 178px;
     }
+    .sect-3-group-2{
+      margin-right: 220px;
+      .sect-3-link-group{
+        .sect-3-link-2{
+          margin-left: 16px;
+        }
+      }
+    }
     .sect-3-group-1 {
       margin-right: 220px;
+      .sect-3-link-group{
+        .sect-3-link-2{
+          margin-left: 16px;
+        }
+      }
     }
   }
 }
@@ -225,6 +238,11 @@
         font-size: 20px;
         line-height: 30px;
         font-weight: bold;
+      }
+      span{
+        font-weight: 400; 
+        font-size: 20px; 
+        line-height: 30px;
       }
     }
     .sect-4-img-1 {
@@ -288,7 +306,7 @@
     }
     .button-group {
       margin-bottom: 28px;
-      h2 {
+      h4 {
         font-weight: bold;
         font-size: 48px;
         line-height: 68px;
@@ -406,7 +424,7 @@
         color: $black100;
       }
 
-      h3 {
+      h5 {
         color: $white100;
         font-size: 48px;
         font-family: $Epilogue;
@@ -427,7 +445,7 @@
       margin-bottom: 44px;
     }
 
-    h4 {
+    h6 {
       font-family: $Epilogue;
       font-weight: bold;
       line-height: 68px;
@@ -505,7 +523,7 @@ footer{
       display: flex;
       justify-content: space-between;
       .ft-main-item{
-        h2{
+        .ft-title{
           font-weight: bold;
           font-size: 20px;
           line-height: 30px;

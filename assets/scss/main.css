@@ -183,7 +183,7 @@ section {
   padding-bottom: 96px;
 }
 
-.sect-2-home .container .text-title h1 {
+.sect-2-home .container .text-title h2 {
   font-family: "Epilogue", sans-serif;
   font-size: 24px;
   line-height: 36px;
@@ -213,7 +213,7 @@ section {
   color: #9095A0;
   width: 476px;
 }
-.sect-3-home .container h1 {
+.sect-3-home .container h3 {
   font-weight: bold;
   font-size: 40px;
   line-height: 56px;
@@ -241,8 +241,17 @@ section {
 .sect-3-home .container .sect-3-image-2 {
   margin-bottom: 178px;
 }
+.sect-3-home .container .sect-3-group-2 {
+  margin-right: 220px;
+}
+.sect-3-home .container .sect-3-group-2 .sect-3-link-group .sect-3-link-2 {
+  margin-left: 16px;
+}
 .sect-3-home .container .sect-3-group-1 {
   margin-right: 220px;
+}
+.sect-3-home .container .sect-3-group-1 .sect-3-link-group .sect-3-link-2 {
+  margin-left: 16px;
 }
 
 .sect-4-home {
@@ -274,6 +283,11 @@ section {
   font-size: 20px;
   line-height: 30px;
   font-weight: bold;
+}
+.sect-4-home .container .profile-pic span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 }
 .sect-4-home .container .sect-4-img-1 {
   margin-bottom: 49.8px;
@@ -333,12 +347,12 @@ section {
 .sect-5-home .container .button-group {
   margin-bottom: 28px;
 }
-.sect-5-home .container .button-group h2 {
+.sect-5-home .container .button-group h4 {
   font-weight: bold;
   font-size: 48px;
   line-height: 68px;
 }
-.sect-5-home .container .button-group h2 p {
+.sect-5-home .container .button-group h4 p {
   margin-bottom: 28px;
 }
 .sect-5-home .container .sect-5-list {
@@ -442,7 +456,7 @@ section {
   padding: 12px 24px;
   color: #171A1F;
 }
-.sect-6-home .container .left-section h3 {
+.sect-6-home .container .left-section h5 {
   color: #FFFFFF;
   font-size: 48px;
   font-family: "Epilogue", sans-serif;
@@ -459,7 +473,7 @@ section {
 .sect-7-home .container p {
   margin-bottom: 44px;
 }
-.sect-7-home .container h4 {
+.sect-7-home .container h6 {
   font-family: "Epilogue", sans-serif;
   font-weight: bold;
   line-height: 68px;
@@ -531,7 +545,7 @@ footer .container section {
   display: flex;
   justify-content: space-between;
 }
-footer .container section .ft-main-item h2 {
+footer .container section .ft-main-item .ft-title {
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
@@ -727,7 +741,7 @@ section {
   .sect-2-home {
     padding: 30px 0;
   }
-  .sect-2-home .container .text-title h1 {
+  .sect-2-home .container .text-title h2 {
     font-size: 28px;
     line-height: 36px;
     margin-bottom: 30px;
@@ -764,7 +778,7 @@ section {
     line-height: 28px;
     width: auto;
   }
-  .sect-3-home .container .sect-3-group-1 h1 {
+  .sect-3-home .container .sect-3-group-1 h3 {
     font-weight: bold;
     font-size: 28px;
     line-height: 56px;
@@ -826,6 +840,9 @@ section {
     line-height: 30px;
     font-weight: bold;
   }
+  .sect-4-home .container .profile-pic span {
+    font-size: 18px;
+  }
   .sect-4-home .container .sect-4-img-1 {
     margin-bottom: 49.8px;
   }
@@ -868,7 +885,6 @@ section {
     border-radius: 4px, 0px, 0px, 4px;
     padding: 24px 74px 24px 24px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
   }
   .sect-5-home .container .sect-5-group-2 {
     background-color: #FFFFFF;
@@ -889,12 +905,12 @@ section {
     margin-bottom: 28px;
     align-items: center;
   }
-  .sect-5-home .container .button-group h2 {
+  .sect-5-home .container .button-group h4 {
     font-weight: bold;
     font-size: 28px;
     line-height: 68px;
   }
-  .sect-5-home .container .button-group h2 p {
+  .sect-5-home .container .button-group h4 p {
     margin-bottom: 28px;
     font-size: 14px;
   }
@@ -902,6 +918,9 @@ section {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+  }
+  .sect-5-home .container .sect-5-list div {
+    padding-bottom: -40px;
   }
   .sect-5-home .container .sect-5-list .first-item-1 {
     font-size: 28px;
@@ -1004,7 +1023,7 @@ section {
     padding: 12px 24px;
     color: #171A1F;
   }
-  .sect-6-home .container .left-section h3 {
+  .sect-6-home .container .left-section h5 {
     color: #FFFFFF;
     font-size: 28px;
     font-family: "Epilogue", sans-serif;
@@ -1017,7 +1036,7 @@ section {
   .sect-7-home .container p {
     margin-bottom: 44px;
   }
-  .sect-7-home .container h4 {
+  .sect-7-home .container h6 {
     line-height: 68px;
     font-size: 28px;
   }

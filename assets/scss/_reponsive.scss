@@ -61,8 +61,6 @@
 
       .sect-1-links {
         width: auto;
-       // display: flex;
-        //flex-direction: column;
         text-align: center;
         column-gap: 20px;
         a:nth-child(1) {
@@ -96,7 +94,7 @@
     padding: 30px 0;
     .container {
       .text-title {
-        h1 {
+        h2 {
           font-size: 28px;
           line-height: 36px;
           margin-bottom: 30px;
@@ -135,7 +133,7 @@
           line-height: 28px;
           width: auto;
         }
-        h1 {
+        h3 {
           font-weight: bold;
           font-size: 28px;
           line-height: 56px;
@@ -210,6 +208,9 @@
           line-height: 30px;
           font-weight: bold;
         }
+        span{
+          font-size: 18px;
+        }
       }
       .sect-4-img-1 {
         margin-bottom: 49.8px;
@@ -257,7 +258,6 @@
         border-radius: 4px, 0px, 0px, 4px;
         padding: 24px 74px 24px 24px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
         
         
       }
@@ -279,7 +279,7 @@
         flex-direction: column;
         margin-bottom: 28px;
         align-items: center;
-        h2 {
+        h4 {
           font-weight: bold;
           font-size: 28px;
           line-height: 68px;
@@ -293,6 +293,9 @@
         display: flex;
         flex-direction: column;
         margin-top: 20px;
+        div{
+          padding-bottom: -40px;
+        }
 
         .first-item-1 {
           font-size: 28px;
@@ -400,7 +403,7 @@
           color: $black100;
         }
 
-        h3 {
+        h5 {
           color: $white100;
           font-size: 28px;
           font-family: $Epilogue;
@@ -417,7 +420,7 @@
       p {
         margin-bottom: 44px;
       }
-      h4 {
+      h6 {
         line-height: 68px;
         font-size: 28px;
       }
