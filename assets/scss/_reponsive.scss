@@ -46,13 +46,14 @@
 
       h1 {
         width: 100%;
-        font-size: 35px;
+        font-size: 28px;
         text-align: center;
         white-space: wrap;
+        line-height: 40px;
       }
       p {
         width: 100%;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 30px;
         white-space: wrap;
         text-align: center;
@@ -60,15 +61,16 @@
 
       .sect-1-links {
         width: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+       // display: flex;
+        //flex-direction: column;
+        text-align: center;
         column-gap: 20px;
         a:nth-child(1) {
           width: auto;
           height: auto;
           background-color: $babyBlue;
           padding: 8px 12px;
+          text-align: center;
         }
         a:nth-child(2) {
           width: auto;
@@ -77,6 +79,7 @@
           margin-top: 10px;
           border: 1px solid $babyBlue;
           padding: 8px 12px;
+          text-align: center;
         }
       }
 
@@ -94,7 +97,7 @@
     .container {
       .text-title {
         h1 {
-          font-size: 24px;
+          font-size: 28px;
           line-height: 36px;
           margin-bottom: 30px;
         }
@@ -134,7 +137,7 @@
         }
         h1 {
           font-weight: bold;
-          font-size: 40px;
+          font-size: 28px;
           line-height: 56px;
           font-family: $Epilogue;
           text-align: center;
@@ -176,6 +179,7 @@
       .sect-3-group-2 {
         h1 {
           text-align: center;
+          font-size: 28px;
         }
         p {
           text-align: center;
@@ -202,7 +206,7 @@
           margin-top: 41px;
           margin-left: 16px;
           font-family: $Inter;
-          font-size: 20px;
+          font-size: 18px;
           line-height: 30px;
           font-weight: bold;
         }
@@ -228,8 +232,8 @@
       }
       p {
         width: auto;
-        font-size: 32px;
-        line-height: 48px;
+        font-size: 18px;
+        line-height: 30px;
         font-weight: 400;
         font-family: $Inter;
         height: 192px;
@@ -254,6 +258,8 @@
         padding: 24px 74px 24px 24px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         overflow: hidden;
+        
+        
       }
       .sect-5-group-2 {
         background-color: $white100;
@@ -275,20 +281,21 @@
         align-items: center;
         h2 {
           font-weight: bold;
-          font-size: 48px;
+          font-size: 28px;
           line-height: 68px;
           p {
             margin-bottom: 28px;
+            font-size: 14px;
           }
         }
       }
       .sect-5-list {
         display: flex;
         flex-direction: column;
-        margin-left: 20%;
+        margin-top: 20px;
 
         .first-item-1 {
-          font-size: 32px;
+          font-size: 28px;
           font-weight: bold;
           line-height: 48px;
           font-family: $Epilogue;
@@ -296,7 +303,7 @@
         }
         .first-item-2 {
           color: $babyBlue;
-          font-size: 40px;
+          font-size: 28px;
           line-height: 56px;
           font-weight: bold;
           font-family: $Epilogue;
@@ -310,7 +317,7 @@
           margin-bottom: 16px;
         }
         .price {
-          font-size: 40px;
+          font-size: 28px;
           line-height: 56px;
           font-family: $Epilogue;
           font-weight: bold;
@@ -374,6 +381,9 @@
       }
       .right-section {
         width: auto;
+        img{
+          display: none;
+        }
       }
       .left-section {
         background-color: $babyBlue;
@@ -392,7 +402,7 @@
 
         h3 {
           color: $white100;
-          font-size: 48px;
+          font-size: 28px;
           font-family: $Epilogue;
           line-height: 68px;
           font-weight: bold;
@@ -418,11 +428,11 @@
           // here, I just called the .inner-box-container class to provide margin-bootom: 20px; so that each card has a distance
           margin-bottom: 30px;
           .first-item {
-            font-size: 16px;
+            font-size: 18px;
             margin-top: 10px;
           }
           .second-item {
-            font-size: 20px;
+            font-size: 18px;
             line-height: 1.4;
             margin-top: 10px;
           }

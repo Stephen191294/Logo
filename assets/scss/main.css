@@ -314,6 +314,7 @@ section {
   padding: 24px 74px 24px 24px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  margin-right: 20px;
 }
 .sect-5-home .container .sect-5-group-2 {
   background-color: #FFFFFF;
@@ -323,6 +324,7 @@ section {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 28px 0 28px 24px;
   white-space: nowrap;
+  margin-right: 18px;
 }
 .sect-5-home .container .sect-5-group-2 .popular {
   margin-left: 86px;
@@ -684,22 +686,21 @@ section {
   }
   .sect-1-home .container h1 {
     width: 100%;
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
     white-space: wrap;
+    line-height: 40px;
   }
   .sect-1-home .container p {
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     white-space: wrap;
     text-align: center;
   }
   .sect-1-home .container .sect-1-links {
     width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
     -moz-column-gap: 20px;
          column-gap: 20px;
   }
@@ -708,6 +709,7 @@ section {
     height: auto;
     background-color: #00BDD6;
     padding: 8px 12px;
+    text-align: center;
   }
   .sect-1-home .container .sect-1-links a:nth-child(2) {
     width: auto;
@@ -716,6 +718,7 @@ section {
     margin-top: 10px;
     border: 1px solid #00BDD6;
     padding: 8px 12px;
+    text-align: center;
   }
   .sect-1-home .container .sect-1-img img {
     padding-top: 30px;
@@ -725,7 +728,7 @@ section {
     padding: 30px 0;
   }
   .sect-2-home .container .text-title h1 {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 36px;
     margin-bottom: 30px;
   }
@@ -763,7 +766,7 @@ section {
   }
   .sect-3-home .container .sect-3-group-1 h1 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 28px;
     line-height: 56px;
     font-family: "Epilogue", sans-serif;
     text-align: center;
@@ -795,6 +798,7 @@ section {
   }
   .sect-3-home .container .sect-3-group-2 h1 {
     text-align: center;
+    font-size: 28px;
   }
   .sect-3-home .container .sect-3-group-2 p {
     text-align: center;
@@ -818,7 +822,7 @@ section {
     margin-top: 41px;
     margin-left: 16px;
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     font-weight: bold;
   }
@@ -843,8 +847,8 @@ section {
   }
   .sect-4-home .sect-4-group p {
     width: auto;
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 18px;
+    line-height: 30px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
     height: 192px;
@@ -887,19 +891,20 @@ section {
   }
   .sect-5-home .container .button-group h2 {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 28px;
     line-height: 68px;
   }
   .sect-5-home .container .button-group h2 p {
     margin-bottom: 28px;
+    font-size: 14px;
   }
   .sect-5-home .container .sect-5-list {
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
+    margin-top: 20px;
   }
   .sect-5-home .container .sect-5-list .first-item-1 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     line-height: 48px;
     font-family: "Epilogue", sans-serif;
@@ -907,7 +912,7 @@ section {
   }
   .sect-5-home .container .sect-5-list .first-item-2 {
     color: #00BDD6;
-    font-size: 40px;
+    font-size: 28px;
     line-height: 56px;
     font-weight: bold;
     font-family: "Epilogue", sans-serif;
@@ -921,7 +926,7 @@ section {
     margin-bottom: 16px;
   }
   .sect-5-home .container .sect-5-list .price {
-    font-size: 40px;
+    font-size: 28px;
     line-height: 56px;
     font-family: "Epilogue", sans-serif;
     font-weight: bold;
@@ -982,6 +987,9 @@ section {
   .sect-6-home .container .right-section {
     width: auto;
   }
+  .sect-6-home .container .right-section img {
+    display: none;
+  }
   .sect-6-home .container .left-section {
     background-color: #00BDD6;
     border-radius: 0 8px 8px 0;
@@ -998,7 +1006,7 @@ section {
   }
   .sect-6-home .container .left-section h3 {
     color: #FFFFFF;
-    font-size: 48px;
+    font-size: 28px;
     font-family: "Epilogue", sans-serif;
     line-height: 68px;
     font-weight: bold;
@@ -1017,11 +1025,11 @@ section {
     margin-bottom: 30px;
   }
   .sect-7-home .container .sect-7-box-container .inner-box-container .first-item {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
   }
   .sect-7-home .container .sect-7-box-container .inner-box-container .second-item {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.4;
     margin-top: 10px;
   }
