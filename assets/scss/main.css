@@ -873,119 +873,92 @@ section {
   .sect-5-home .container {
     padding-top: 96px;
   }
-  .sect-5-home .container .profile-pic {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  .sect-5-home .container .button-group h4 {
+    font-size: 28px;
   }
-  .sect-5-home .container .sect-5-group-1 {
-    background-color: #F8F9FA;
-    width: 353px;
-    height: 402px;
+  .sect-5-home .container .button-group p {
+    font-size: 16px;
+  }
+  .sect-5-home .container .button-group img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .sect-5-home .container .sect-5-list {
+    display: block;
+  }
+  .sect-5-home .container .sect-5-list .sect-5-group-1 {
+    width: auto;
+    margin: 0 0 30px;
+    height: auto;
     border-radius: 4px, 0px, 0px, 4px;
-    padding: 24px 74px 24px 24px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
   }
-  .sect-5-home .container .sect-5-group-2 {
-    background-color: #FFFFFF;
-    width: 353px;
-    height: 438px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    padding: 28px 0 28px 24px;
-    white-space: nowrap;
+  .sect-5-home .container .sect-5-list .sect-5-group-1 .first-item-1 {
+    font-size: 28px;
+    line-height: 1.5;
   }
-  .sect-5-home .container .sect-5-group-2 .popular {
-    margin-left: 86px;
-    white-space: nowrap;
+  .sect-5-home .container .sect-5-list .sect-5-group-1 .price {
+    font-size: 28px;
+    line-height: 1.5;
   }
-  .sect-5-home .container .button-group {
+  .sect-5-home .container .sect-5-list .sect-5-group-1 .last-item-1 {
+    display: block;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  .sect-5-home .container .sect-5-list .sect-5-group-2 {
+    width: auto;
+    margin: 0 0 30px;
+    height: auto;
+    border-radius: 4px, 0px, 0px, 4px;
+    padding: 20px;
+  }
+  .sect-5-home .container .sect-5-list .sect-5-group-2 .first-item-2 {
+    font-size: 28px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sect-5-home .container .sect-5-list .sect-5-group-2 .first-item-2 img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .sect-5-home .container .sect-5-list .sect-5-group-2 .price {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+  .sect-5-home .container .sect-5-list .sect-5-group-2 .last-item-1 {
+    display: block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .sect-5-home .container .sect-5-list .button-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 28px;
     align-items: center;
   }
-  .sect-5-home .container .button-group h4 {
+  .sect-5-home .container .sect-5-list .button-group h4 {
     font-weight: bold;
     font-size: 28px;
     line-height: 68px;
   }
-  .sect-5-home .container .button-group h4 p {
+  .sect-5-home .container .sect-5-list .button-group h4 p {
     margin-bottom: 28px;
     font-size: 14px;
   }
-  .sect-5-home .container .sect-5-list {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-  }
-  .sect-5-home .container .sect-5-list div {
-    padding-bottom: -40px;
-  }
-  .sect-5-home .container .sect-5-list .first-item-1 {
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 48px;
-    font-family: "Epilogue", sans-serif;
-    color: #171A1F;
-  }
-  .sect-5-home .container .sect-5-list .first-item-2 {
-    color: #00BDD6;
-    font-size: 28px;
-    line-height: 56px;
-    font-weight: bold;
-    font-family: "Epilogue", sans-serif;
-  }
-  .sect-5-home .container .sect-5-list .second-item {
-    font-family: "Inter", sans-serif;
-    font-weight: 400px;
-    font-size: 16px;
-    line-height: 26px;
-    color: #424955;
-    margin-bottom: 16px;
-  }
-  .sect-5-home .container .sect-5-list .price {
-    font-size: 28px;
-    line-height: 56px;
-    font-family: "Epilogue", sans-serif;
-    font-weight: bold;
-    margin-bottom: 17px;
-  }
-  .sect-5-home .container .sect-5-list .user-month {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Inter", sans-serif;
-    line-height: 22px;
-    color: #424955;
-  }
-  .sect-5-home .container .sect-5-list .last-item-1 {
-    display: block;
-    width: 305px;
-    height: 44px;
-    border-radius: 4px;
-    border: 1px solid #00BDD6;
-    color: #00BDD6;
-    padding: 9px 119.5px;
-    margin-top: 19px;
-    white-space: nowrap;
-  }
   .sect-5-home .container .sect-5-list .last-item-2 {
     display: block;
-    background-color: #00BDD6;
-    color: #FFFFFF;
-    width: 305px;
-    height: 44px;
+    background-color: #00bdd6;
+    color: #ffffff;
+    width: auto;
+    height: auto;
+    text-align: center;
     border-radius: 4px;
-    padding: 9px 119.5px;
-    margin-top: 39px;
-  }
-  .sect-5-home .container .sect-5-list div {
-    font-size: 14px;
-    font-family: "Inter", sans-serif;
-    line-height: 22px;
-    font-weight: 400;
-    margin-bottom: 10px;
-    color: #171A1F;
+    padding: 9px 20px !important;
   }
   .sect-6-home {
     width: auto;
@@ -995,28 +968,14 @@ section {
     flex-direction: column;
     align-items: center;
   }
-  .sect-6-home .container .sect-6-txt {
-    font-family: "Inter", sans-serif;
-    font-weight: 400px;
-    font-size: 18px;
-    line-height: 28px;
-    margin-bottom: 20px;
-    color: #1D2128;
-  }
-  .sect-6-home .container .right-section {
-    width: auto;
-  }
-  .sect-6-home .container .right-section img {
-    display: none;
-  }
   .sect-6-home .container .left-section {
-    background-color: #00BDD6;
-    border-radius: 0 8px 8px 0;
-    height: 384px;
+    height: auto;
     width: auto;
+    padding: 50px 20px;
+    border-radius: 0;
   }
   .sect-6-home .container .left-section a {
-    width: 112px;
+    width: auto;
     height: 52px;
     border-radius: 4px;
     background-color: #FFFFFF;
@@ -1027,11 +986,26 @@ section {
     color: #FFFFFF;
     font-size: 28px;
     font-family: "Epilogue", sans-serif;
-    line-height: 68px;
+    line-height: 1.4;
     font-weight: bold;
+  }
+  .sect-6-home .container .left-section p {
+    font-size: 15px;
+  }
+  .sect-6-home .container .right-section {
+    width: auto;
+  }
+  .sect-6-home .container .right-section img {
+    height: auto;
+    width: auto;
+    border-radius: 0;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .sect-7-home .container {
     padding: 0 20px;
+    display: block;
+    width: auto;
   }
   .sect-7-home .container p {
     margin-bottom: 44px;
@@ -1040,30 +1014,41 @@ section {
     line-height: 68px;
     font-size: 28px;
   }
-  .sect-7-home .container .sect-7-box-container .inner-box-container {
+  .sect-7-home .container .sect-7-box-container {
+    padding-bottom: 50px;
+  }
+  .sect-7-home .container .sect-7-box-container .box {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .sect-7-home .container .sect-7-box-container .box .inner-box-container {
     margin-bottom: 30px;
   }
-  .sect-7-home .container .sect-7-box-container .inner-box-container .first-item {
+  .sect-7-home .container .sect-7-box-container .box .inner-box-container .card-body {
+    padding: 20px;
+  }
+  .sect-7-home .container .sect-7-box-container .box .inner-box-container .card-body .first-item {
     font-size: 18px;
     margin-top: 10px;
+    white-space: normal;
   }
-  .sect-7-home .container .sect-7-box-container .inner-box-container .second-item {
-    font-size: 18px;
+  .sect-7-home .container .sect-7-box-container .box .inner-box-container .card-body .second-item {
+    font-size: 15px;
     line-height: 1.4;
-    margin-top: 10px;
+    margin: 10px 0 20px;
   }
-  .sect-7-home .container .sect-7-box-container .inner-box-container .third-item {
+  .sect-7-home .container .sect-7-box-container .box .inner-box-container .card-body .third-item {
     font-size: 14px;
     margin-top: 15px;
-    margin-bottom: 27px;
+    margin-bottom: 10px;
   }
-  .sect-7-home .container .sect-7-box-container .inner-box-container .third-item .time {
-    margin-left: 130px;
-    width: 83px;
-    height: 28px;
+  .sect-7-home .container .sect-7-box-container .box .inner-box-container .card-body .third-item .time {
+    margin-left: auto;
+    float: right;
+    width: auto;
+    height: auto;
     padding: 4px 8px;
   }
-  .sect-7-home .container .sect-7-box-container .inner-box-container ul {
+  .sect-7-home .container .sect-7-box-container .box .inner-box-container .card-body ul {
     padding: 10px;
     width: auto;
   }

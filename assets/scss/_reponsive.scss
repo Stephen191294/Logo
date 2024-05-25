@@ -208,7 +208,7 @@
           line-height: 30px;
           font-weight: bold;
         }
-        span{
+        span {
           font-size: 18px;
         }
       }
@@ -245,123 +245,93 @@
   .sect-5-home {
     .container {
       padding-top: 96px;
-      .profile-pic {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-      }
-
-      .sect-5-group-1 {
-        background-color: $lightGrey200;
-        width: 353px;
-        height: 402px;
-        border-radius: 4px, 0px, 0px, 4px;
-        padding: 24px 74px 24px 24px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        
-        
-      }
-      .sect-5-group-2 {
-        background-color: $white100;
-        width: 353px;
-        height: 438px;
-        border-radius: 4px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        padding: 28px 0 28px 24px;
-        white-space: nowrap;
-        .popular {
-          margin-left: 86px;
-          white-space: nowrap;
+      .button-group {
+        h4 {
+          font-size: 28px;
+        }
+        p {
+          font-size: 16px;
+        }
+        img {
+          object-fit: contain;
         }
       }
-      .button-group {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 28px;
-        align-items: center;
-        h4 {
-          font-weight: bold;
-          font-size: 28px;
-          line-height: 68px;
-          p {
-            margin-bottom: 28px;
-            font-size: 14px;
+      .sect-5-list {
+        display: block;
+        .sect-5-group-1 {
+          width: auto;
+          margin: 0 0 30px;
+          height: auto;
+          border-radius: 4px, 0px, 0px, 4px;
+          padding: 20px;
+          .first-item-1 {
+            font-size: 28px;
+            line-height: 1.5;
+          }
+          .price {
+            font-size: 28px;
+            line-height: 1.5;
+          }
+          .last-item-1 {
+            display: block;
+            width: auto;
+            height: auto;
+            text-align: center;
+          }
+        }
+        .sect-5-group-2 {
+          width: auto;
+          margin: 0 0 30px;
+          height: auto;
+          border-radius: 4px, 0px, 0px, 4px;
+          padding: 20px;
+          .first-item-2 {
+            font-size: 28px;
+            line-height: 1.5;
+            display: flex;
+            justify-content: space-between;
+            img {
+              object-fit: contain;
+            }
+          }
+          .price {
+            font-size: 28px;
+            line-height: 1.5;
+          }
+          .last-item-1 {
+            display: block;
+            width: auto;
+            height: auto;
+            text-align: center;
+            padding: 10px 20px;
+          }
+        }
+        .button-group {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 28px;
+          align-items: center;
+          h4 {
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 68px;
+            p {
+              margin-bottom: 28px;
+              font-size: 14px;
+            }
           }
         }
       }
       .sect-5-list {
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        div{
-          padding-bottom: -40px;
-        }
-
-        .first-item-1 {
-          font-size: 28px;
-          font-weight: bold;
-          line-height: 48px;
-          font-family: $Epilogue;
-          color: $black100;
-        }
-        .first-item-2 {
-          color: $babyBlue;
-          font-size: 28px;
-          line-height: 56px;
-          font-weight: bold;
-          font-family: $Epilogue;
-        }
-        .second-item {
-          font-family: $Inter;
-          font-weight: 400px;
-          font-size: 16px;
-          line-height: 26px;
-          color: $grey300;
-          margin-bottom: 16px;
-        }
-        .price {
-          font-size: 28px;
-          line-height: 56px;
-          font-family: $Epilogue;
-          font-weight: bold;
-          margin-bottom: 17px;
-        }
-        .user-month {
-          font-size: 14px;
-          font-weight: 400;
-          font-family: $Inter;
-          line-height: 22px;
-          color: $grey300;
-        }
-        .last-item-1 {
-          display: block;
-          width: 305px;
-          height: 44px;
-          border-radius: 4px;
-          border: 1px solid $babyBlue;
-          color: $babyBlue;
-          padding: 9px 119.5px;
-          margin-top: 19px;
-          white-space: nowrap;
-        }
         .last-item-2 {
           display: block;
-          background-color: $babyBlue;
-          color: $white100;
-          width: 305px;
-          height: 44px;
+          background-color: #00bdd6;
+          color: #ffffff;
+          width: auto;
+          height: auto;
+          text-align: center;
           border-radius: 4px;
-          padding: 9px 119.5px;
-          margin-top: 39px;
-        }
-
-        div {
-          font-size: 14px;
-          font-family: $Inter;
-          line-height: 22px;
-          font-weight: 400;
-          margin-bottom: 10px;
-          color: $black100;
+          padding: 9px 20px !important;
         }
       }
     }
@@ -373,29 +343,13 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-
-      .sect-6-txt {
-        font-family: $Inter;
-        font-weight: 400px;
-        font-size: 18px;
-        line-height: 28px;
-        margin-bottom: 20px;
-        color: $black200;
-      }
-      .right-section {
-        width: auto;
-        img{
-          display: none;
-        }
-      }
       .left-section {
-        background-color: $babyBlue;
-        border-radius: 0 8px 8px 0;
-        height: 384px;
+        height: auto;
         width: auto;
-
+        padding: 50px 20px;
+        border-radius: 0;
         a {
-          width: 112px;
+          width: auto;
           height: 52px;
           border-radius: 4px;
           background-color: $white100;
@@ -407,8 +361,21 @@
           color: $white100;
           font-size: 28px;
           font-family: $Epilogue;
-          line-height: 68px;
+          line-height: 1.4;
           font-weight: bold;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+
+      .right-section {
+        width: auto;
+        img {
+          height: auto;
+          width: auto;
+          border-radius: 0;
+          object-fit: contain;
         }
       }
     }
@@ -417,6 +384,8 @@
   .sect-7-home {
     .container {
       padding: 0 20px;
+      display: block;
+      width: auto;
       p {
         margin-bottom: 44px;
       }
@@ -426,33 +395,42 @@
       }
       // In this code block, I only changed the CSS code that I wanted to change when it was only in mobile view
       .sect-7-box-container {
-        // this code responsive mobile
-        .inner-box-container {
-          // here, I just called the .inner-box-container class to provide margin-bootom: 20px; so that each card has a distance
-          margin-bottom: 30px;
-          .first-item {
-            font-size: 18px;
-            margin-top: 10px;
-          }
-          .second-item {
-            font-size: 18px;
-            line-height: 1.4;
-            margin-top: 10px;
-          }
-          .third-item {
-            font-size: 14px;
-            margin-top: 15px;
-            margin-bottom: 27px;
-            .time {
-              margin-left: 130px;
-              width: 83px;
-              height: 28px;
-              padding: 4px 8px;
+        padding-bottom: 50px;
+        .box {
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          // this code responsive mobile
+          .inner-box-container {
+            // here, I just called the .inner-box-container class to provide margin-bootom: 20px; so that each card has a distance
+            margin-bottom: 30px;
+            .card-body {
+              padding: 20px;
+              .first-item {
+                font-size: 18px;
+                margin-top: 10px;
+                white-space: normal;
+              }
+              .second-item {
+                font-size: 15px;
+                line-height: 1.4;
+                margin: 10px 0 20px;
+              }
+              .third-item {
+                font-size: 14px;
+                margin-top: 15px;
+                margin-bottom: 10px;
+                .time {
+                  margin-left: auto;
+                  float: right;
+                  width: auto;
+                  height: auto;
+                  padding: 4px 8px;
+                }
+              }
+              ul {
+                padding: 10px;
+                width: auto;
+              }
             }
-          }
-          ul {
-            padding: 10px;
-            width: auto;
           }
         }
       }
