@@ -99,7 +99,7 @@ section {
 }
 
 .navbar .container-fluid {
-  padding: 10px 16px !important;
+  padding: 0px 16px !important;
 }
 .navbar .container-fluid a img {
   width: 120px;
