@@ -3,32 +3,56 @@
 
 @include responsive(mobile) {
   .navbar {
-    display: none;
-    padding: 14px 24px;
-    .nav-link-1 {
-      font-size: 14px;
-      line-height: 22px;
-    }
-    .nav-link-2 {
-      color: $white100;
-      width: 80px;
-      height: 36px;
-      border-radius: 4px;
-      padding: 7px 15px;
-      margin-left: 23px;
-    }
     .container-fluid {
-      .nav-bar-list {
+      // .navbar is the main element that contains all the navbar content. Within it, .container-fluid has the following properties: => when the website is in mobile view
+
+      // padding: 3px 18px !important; sets the padding to 3px top and bottom, and 18px left and right. The !important flag overrides any other padding rules that might be applied to this element. => when the website is in mobile view
+      padding: 3px 18px !important;
+      a {
+        img {
+          // Within .container-fluid, any a element containing an img element will have its width set to 100px. => when the website is in mobile view
+          width: 100px;
+        }
+      }
+      .navbar-toggler {
+        // border: 1px solid $babyBlue; sets a 1px solid border with the color defined by the $babyBlue variable. => when the website is in mobile view
+        // &:focus applies styles when the toggler is focused: => when the website is in mobile view
+        // box-shadow: none !important; removes any box-shadow, overriding other styles with !important. => when the website is in mobile view
+        border: 1px solid $babyBlue;
+        &:focus {
+          box-shadow: none !important;
+        }
+      }
+      .item-links {
         ul {
-          list-style: none;
+          // padding-top: 10px; adds 10px of padding to the top. => when the website is in mobile view
+          // display: flex; sets the ul to use flexbox layout. => when the website is in mobile view
+          // gap: 0; removes any gap between flex items. => when the website is in mobile view
+          padding-top: 10px;
           display: flex;
-          cursor: pointer;
-          li {
-            margin-left: 24px;
-            color: $grey100;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 22px;
+          gap: 0;
+        }
+        .items-btns {
+          // .items-btns styles the buttons within it with:  => when the website is in mobile view
+
+          // padding: 10px 0 15px; adds 10px padding at the top, 15px at the bottom, and no padding on the sides. => when the website is in mobile view
+
+          padding: 10px 0 15px;
+          button:nth-child(1) {
+            // button:nth-child(1) applies styles to the first child button: => when the website is in mobile view
+            // color: white; sets the text color to white. => when the website is in mobile view
+            // background-color: $babyBlue; sets the background color using the $babyBlue variable. => when the website is in mobile view
+            // padding: 8px 18px; adds 8px padding top and bottom, and 18px left and right. => when the website is in mobile view
+            color: white;
+            background-color: $babyBlue;
+            padding: 8px 18px;
+          }
+          button:nth-child(2) {
+            // button:nth-child(2) applies styles to the second child button: => when the website is in mobile view
+            // background-color: $babyBlue; sets the background color using the $babyBlue variable => when the website is in mobile view.
+            // padding: 8px 18px; adds 8px padding top and bottom, and 18px left and right => when the website is in mobile view.
+            background-color: $babyBlue;
+            padding: 8px 18px;
           }
         }
       }
@@ -40,6 +64,7 @@
     flex-direction: row;
     width: auto;
     .container {
+      overflow: hidden;
       width: auto;
       display: block;
       white-space: normal;
@@ -60,13 +85,15 @@
       }
 
       .sect-1-links {
-        width: auto;
         text-align: center;
         column-gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         a:nth-child(1) {
           width: auto;
           height: auto;
-          background-color: $babyBlue;
           padding: 8px 12px;
           text-align: center;
         }
@@ -74,8 +101,6 @@
           width: auto;
           height: auto;
           color: $babyBlue;
-          margin-top: 10px;
-          border: 1px solid $babyBlue;
           padding: 8px 12px;
           text-align: center;
         }
@@ -93,6 +118,7 @@
   .sect-2-home {
     padding: 30px 0;
     .container {
+      overflow: hidden;
       .text-title {
         h2 {
           font-size: 28px;
@@ -119,6 +145,7 @@
     .container {
       width: auto;
       display: flex;
+      overflow: hidden;
       flex-direction: column;
 
       .sect-3-link-group {
@@ -144,36 +171,26 @@
 
       .sect-3-link-1 {
         text-align: center;
-        background-color: $babyBlue;
-        color: $white100;
         width: 112px;
         height: 44px;
         border-radius: 4px;
         padding: 9px 26px 9px 25px;
-        font-family: $Inter;
       }
       .sect-3-link-2 {
         text-align: center;
-        color: $babyBlue;
         width: 118px;
         height: 44px;
         border-radius: 4px;
-        font-family: $Inter;
       }
       .sect-3-image-1 {
-        // margin-top: 178px;
-        //margin-left: 50px;
         width: 100%;
       }
       .sect-3-image-2 {
-        // margin-bottom: 178px;
         width: 100%;
 
         margin-top: 100px;
       }
-      .sect-3-group-1 {
-        // margin-right: auto;
-      }
+
       .sect-3-group-2 {
         h1 {
           text-align: center;
@@ -188,28 +205,43 @@
   }
 
   .sect-4-home {
-    background-color: $skyBlue;
+    // .sect-4-home is the main element that wraps the entire content. The width: auto; property sets the element's width to adjust automatically based on its content.
     width: auto;
-
     .container {
+      overflow: hidden;
       align-items: center;
       .sect-4-text {
         white-space: normal;
+        margin-bottom: 0;
+        // .sect-4-text styles the text to:
+        // white-space: normal; allow the text to wrap normally, enabling line breaks.
+        // margin-bottom: 0; removes any bottom margin.
       }
 
       .profile-pic {
-        margin-top: 30px;
-        margin-bottom: 20px;
+        margin: 0 0 20px;
+        display: flex;
+        align-items: center;
+        // margin: 0 0 20px; adds a 20px bottom margin.
+        // display: flex; sets the element to use flexbox.
+        // align-items: center; vertically centers the items inside it.
         p {
           margin-top: 41px;
           margin-left: 16px;
-          font-family: $Inter;
-          font-size: 18px;
-          line-height: 30px;
-          font-weight: bold;
+          font-size: 16px;
+          line-height: 1.4;
         }
+        // p inside .profile-pic:
+
+        // margin-top: 41px; adds a top margin.
+        // margin-left: 16px; adds a left margin.
+        // font-size: 16px; sets the font size to 16px.
+        // line-height: 1.4; sets the line height to 1.4 times the font size.
+        // span inside .profile-pic:
+
+        // font-size: 16px; sets the font size to 16px.
         span {
-          font-size: 18px;
+          font-size: 16px;
         }
       }
       .sect-4-img-1 {
@@ -227,16 +259,26 @@
       }
     }
     .sect-4-group {
+      // .sect-4-group is a wrapper element with automatic width.
       width: auto;
       .section-4-paragraph {
+        // .section-4-paragraph:
+        // width: auto; sets the width automatically.
+
         width: auto;
       }
       p {
+        // P inside .sect-4-group:
+
+        // width: auto; sets the width automatically.
+        // font-size: 18px; sets the font size to 18px.
+        // line-height: 30px; sets the line height to 30px.
+        // font-weight: 400; sets the font weight to 400 (normal).
+        // height: 192px; sets a fixed height of 192px.
         width: auto;
         font-size: 18px;
         line-height: 30px;
         font-weight: 400;
-        font-family: $Inter;
         height: 192px;
       }
     }
@@ -244,27 +286,43 @@
 
   .sect-5-home {
     .container {
+      // .sect-5-home is the main element containing the section. Inside it, .container:
+
+      // overflow: hidden; hides any overflow content when the website is in mobile view.
+      // padding-top: 96px; adds 96px padding at the top when the website is in mobile view.
+      overflow: hidden;
       padding-top: 96px;
       .button-group {
         h4 {
+          // h4 elements with a font size of 28px when the website is in mobile view.
           font-size: 28px;
         }
         p {
+          // p elements with a font size of 16px when the website is in mobile view.
           font-size: 16px;
         }
         img {
+          // img elements that fit within their container while maintaining their aspect ratio (object-fit: contain;) when the website is in mobile view.
           object-fit: contain;
         }
       }
       .sect-5-list {
+        // sect-5-list is displayed as a block element when the website is in mobile view.
         display: block;
         .sect-5-group-1 {
+          // width: auto; to adjust the width automatically when the website is in mobile view.
+          // margin: 0 0 30px; to add a 30px bottom margin when the website is in mobile view.
+          // height: auto; to adjust the height automatically when the website is in mobile view.
+          // border-radius: 4px, 0px, 0px, 4px; for rounded corners (should be border-radius: 4px 0 0 4px;) when the website is in mobile view.
+          // padding: 20px; to add 20px padding on all sides when the website is in mobile view.
           width: auto;
           margin: 0 0 30px;
           height: auto;
           border-radius: 4px, 0px, 0px, 4px;
           padding: 20px;
           .first-item-1 {
+            // font-size: 28px; when the website is in mobile view.
+            // line-height: 1.5; when the website is in mobile view.
             font-size: 28px;
             line-height: 1.5;
           }
@@ -273,6 +331,10 @@
             line-height: 1.5;
           }
           .last-item-1 {
+            // display: block; when the website is in mobile view.
+            // width: auto; when the website is in mobile view.
+            // height: auto; when the website is in mobile view.
+            // text-align: center; when the website is in mobile view.
             display: block;
             width: auto;
             height: auto;
@@ -286,6 +348,13 @@
           border-radius: 4px, 0px, 0px, 4px;
           padding: 20px;
           .first-item-2 {
+            // .first-item-2 in .sect-5-group-2 has:
+
+            // font-size: 28px; when the website is in mobile view.
+            // line-height: 1.5; when the website is in mobile view.
+            // display: flex; for flexbox layout when the website is in mobile view.
+            // justify-content: space-between; to space items evenly when the website is in mobile view.
+            // img inside .first-item-2 has object-fit: contain; when the website is in mobile view.
             font-size: 28px;
             line-height: 1.5;
             display: flex;
@@ -325,8 +394,6 @@
       .sect-5-list {
         .last-item-2 {
           display: block;
-          background-color: #00bdd6;
-          color: #ffffff;
           width: auto;
           height: auto;
           text-align: center;
@@ -338,40 +405,67 @@
   }
 
   .sect-6-home {
+    // width: auto; adjusts the width automatically when the website is in mobile view.
     width: auto;
+
     .container {
+      // .container inside .sect-6-home:
+
+      // overflow: hidden; hides any overflow content when the website is in mobile view.
+      // display: flex; sets the container as a flexbox when the website is in mobile view.
+      // flex-direction: column; arranges flex items in a column when the website is in mobile view.
+      // align-items: center; centers the flex items horizontally when the website is in mobile view.
+      overflow: hidden;
       display: flex;
       flex-direction: column;
       align-items: center;
       .left-section {
+        // .left-section inside .container:
+
+        // height: auto; adjusts the height automatically when the website is in mobile view.
+        // width: auto; adjusts the width automatically when the website is in mobile view.
+        // padding: 50px 20px; adds 50px padding on the top and bottom, and 20px padding on the left and right when the website is in mobile view.
+        // border-radius: 0; sets no border radius when the website is in mobile view.
         height: auto;
         width: auto;
         padding: 50px 20px;
         border-radius: 0;
         a {
+          // a inside .left-section:
+
+          // width: auto; adjusts the width automatically when the website is in mobile view.
+          // height: 52px; sets the height to 52px when the website is in mobile view.
+          // border-radius: 4px; rounds the corners by 4px when the website is in mobile view.
+          // padding: 12px 24px; adds 12px padding on the top and bottom, and 24px padding on the left and right when the website is in mobile view.
           width: auto;
           height: 52px;
           border-radius: 4px;
-          background-color: $white100;
           padding: 12px 24px;
-          color: $black100;
         }
 
         h5 {
-          color: $white100;
+          // font-size: 28px; sets the font size to 28px when the website is in mobile view.
+          // line-height: 1.4; sets the line height to 1.4 when the website is in mobile view.
           font-size: 28px;
-          font-family: $Epilogue;
           line-height: 1.4;
-          font-weight: bold;
         }
         p {
+          // font-size: 15px; sets the font size to 15px when the website is in mobile view.
           font-size: 15px;
         }
       }
 
       .right-section {
+        // .right-section inside .container:
+        // width: auto; adjusts the width automatically when the website is in mobile view.
         width: auto;
         img {
+          // img inside .right-section:
+
+          // height: auto; adjusts the height automatically when the website is in mobile view.
+          // width: auto; adjusts the width automatically when the website is in mobile view.
+          // border-radius: 0; sets no border radius when the website is in mobile view.
+          // object-fit: contain; ensures the image fits within its container while maintaining its aspect ratio when the website is in mobile view.
           height: auto;
           width: auto;
           border-radius: 0;
@@ -383,42 +477,70 @@
 
   .sect-7-home {
     .container {
+      // .sect-7-home is the main container. Inside it, .container:
+
+      // overflow: hidden; hides any overflow content when the website is in mobile view.
+      // padding: 0 20px; adds 20px padding on the left and right when the website is in mobile view.
+      // display: block; sets the container to block display when the website is in mobile view.
+      // width: auto; adjusts the width automatically when the website is in mobile view.
+      overflow: hidden;
       padding: 0 20px;
       display: block;
       width: auto;
       p {
+        // margin-bottom: 44px; adds 44px bottom margin when the website is in mobile view.
         margin-bottom: 44px;
       }
       h6 {
+        // line-height: 68px; sets the line height to 68px when the website is in mobile view.
+        // font-size: 28px; sets the font size to 28px when the website is in mobile view.
         line-height: 68px;
         font-size: 28px;
       }
-      // In this code block, I only changed the CSS code that I wanted to change when it was only in mobile view
       .sect-7-box-container {
+        // .sect-7-box-container inside .container:
+
+        // padding-bottom: 50px; adds 50px padding at the bottom when the website is in mobile view
         padding-bottom: 50px;
         .box {
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-          // this code responsive mobile
           .inner-box-container {
-            // here, I just called the .inner-box-container class to provide margin-bootom: 20px; so that each card has a distance
-            margin-bottom: 30px;
+            img {
+              // width: 100%; ensures the image takes up the full width of its container when the website is in mobile view.
+              width: 100%;
+            }
             .card-body {
+              // padding: 20px; adds 20px padding on all sides when the website is in mobile view.
               padding: 20px;
               .first-item {
+                // font-size: 18px; sets the font size to 18px when the website is in mobile view.
+                // margin-top: 10px; adds a 10px top margin when the website is in mobile view.
+                // white-space: normal; ensures normal text wrapping when the website is in mobile view.
                 font-size: 18px;
                 margin-top: 10px;
                 white-space: normal;
               }
               .second-item {
+                // font-size: 15px; sets the font size to 15px when the website is in mobile view.
+                // line-height: 1.4; sets the line height to 1.4 when the website is in mobile view.
+                // margin: 10px 0 20px; adds 10px top margin, 0px left and right margin, and 20px bottom margin when the website is in mobile view.
                 font-size: 15px;
                 line-height: 1.4;
                 margin: 10px 0 20px;
               }
               .third-item {
+                // font-size: 14px; sets the font size to 14px when the website is in mobile view.
+                // margin-top: 15px; adds a 15px top margin when the website is in mobile view.
+                // margin-bottom: 10px; adds a 10px bottom margin when the website is in mobile view.
                 font-size: 14px;
                 margin-top: 15px;
                 margin-bottom: 10px;
                 .time {
+                  // margin-left: auto; pushes the element to the right when the website is in mobile view.
+                  // float: right; floats the element to the right when the website is in mobile view.
+                  // width: auto; adjusts the width automatically when the website is in mobile view.
+                  // height: auto; adjusts the height automatically when the website is in mobile view.
+                  // padding: 4px 8px; adds 4px padding on the top and bottom, and 8px padding on the left and right when the website is in mobile view.
                   margin-left: auto;
                   float: right;
                   width: auto;
@@ -427,6 +549,8 @@
                 }
               }
               ul {
+                //                 padding: 10px; adds 10px padding on all sides when the website is in mobile view.
+                // width: auto; adjusts the width automatically when the website is in mobile view.
                 padding: 10px;
                 width: auto;
               }
@@ -438,14 +562,96 @@
   }
 
   footer {
-    select {
-      margin-left: 42%;
-      margin-bottom: 10px;
-    }
-    section {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
+    .container {
+      overflow: hidden;
+      section {
+        // display: block; sets the section to block display when the website is in mobile view.
+        // justify-content: space-between; distributes space between child elements, which helps in layout management when the website is in mobile view.
+        display: block;
+        justify-content: space-between;
+        .img-footer {
+          // margin-bottom: 20px; adds 20px bottom margin when the website is in mobile view.
+          margin-bottom: 20px;
+          img {
+            // object-fit: contain; ensures the image fits within its container while maintaining its aspect ratio when the website is in mobile view.
+            // width: 100px; sets the image width to 100px when the website is in mobile view.
+            object-fit: contain;
+            width: 100px;
+          }
+        }
+        .ft-main-item {
+          .ft-title {
+            // margin-bottom: 7px; adds 7px bottom margin when the website is in mobile view.
+            // font-size: 20px; sets the font size to 20px when the website is in mobile view.
+            margin-bottom: 7px;
+            font-size: 20px;
+          }
+          ul {
+            // list-style: none; removes the default list styling when the website is in mobile view.
+            // cursor: pointer; changes the cursor to a pointer when hovering over list items when the website is in mobile view.
+            // padding-left: 0; removes the left padding when the website is in mobile view.
+            list-style: none;
+            cursor: pointer;
+            padding-left: 0;
+            .li-1 {
+              margin-top: 5px;
+            }
+            li {
+              margin-top: 5px;
+            }
+          }
+        }
+        .ft-main-item {
+          .ft-title-1 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 12px;
+            line-height: 20px;
+          }
+          form {
+            width: 100%;
+            input {
+              width: auto;
+              height: 30px;
+              padding: 18px 33px;
+            }
+            .input-2 {
+              padding: 7px 23px 7px 24px;
+              width: auto;
+              height: 36px;
+              border-radius: 0 4px 4px 0;
+              border: none;
+              position: absolute;
+            }
+          }
+        }
+      }
+      .ft-social {
+        // padding-bottom: 20px; adds 20px bottom padding when the website is in mobile view.
+        // display: flex; sets the social list as a flexbox when the website is in mobile view.
+        // justify-content: space-around; evenly distributes space around child elements when the website is in mobile view.
+        // img inside .ft-social-list:
+        // margin-right: 21px; adds 21px right margin to images when the website is in mobile view.
+        display: block;
+        padding-top: 20px;
+        select {
+          display: none;
+        }
+        p {
+          font-size: 13px;
+          line-height: 20px;
+          margin: 15px 0;
+        }
+        .ft-social-list {
+          padding-bottom: 20px;
+          display: flex;
+          justify-content: space-around;
+          img {
+            margin-right: 21px;
+          }
+        }
+      }
     }
   }
 }
